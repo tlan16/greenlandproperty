@@ -1,0 +1,3 @@
+{
+	"plugins": ["money", "properties", "agents", "accounts", "agencies", "shortcodes", "faq", "partners", "landlords", "pricing", "google_analytics", "socialize", "submission"]
+}
