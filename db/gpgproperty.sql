@@ -116,7 +116,7 @@ CREATE TABLE IF NOT EXISTS `gpg_options` (
 --
 
 INSERT INTO `gpg_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost:8082', 'yes'),
+(1, 'siteurl', 'http://localhost', 'yes'),
 (2, 'blogname', 'GPG - GreenLand Property Group', 'yes'),
 (3, 'blogdescription', 'Just another WordPress site', 'yes'),
 (4, 'users_can_register', '0', 'yes'),
@@ -148,7 +148,7 @@ INSERT INTO `gpg_options` (`option_id`, `option_name`, `option_value`, `autoload
 (30, 'blog_charset', 'UTF-8', 'yes'),
 (31, 'moderation_keys', '', 'no'),
 (32, 'active_plugins', 'a:0:{}', 'yes'),
-(33, 'home', 'http://localhost:8082', 'yes'),
+(33, 'home', 'http://localhost', 'yes'),
 (34, 'category_base', '', 'yes'),
 (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (36, 'advanced_edit', '0', 'yes'),
@@ -290,9 +290,9 @@ CREATE TABLE IF NOT EXISTS `gpg_posts` (
 --
 
 INSERT INTO `gpg_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2014-05-13 01:50:09', '2014-05-13 01:50:09', 'Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2014-05-13 01:50:09', '2014-05-13 01:50:09', '', 0, 'http://localhost:8082/?p=1', 0, 'post', '', 1),
-(2, 1, '2014-05-13 01:50:09', '2014-05-13 01:50:09', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost:8082/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'open', 'open', '', 'sample-page', '', '', '2014-05-13 01:50:09', '2014-05-13 01:50:09', '', 0, 'http://localhost:8082/?page_id=2', 0, 'page', '', 0),
-(3, 1, '2014-05-13 01:50:48', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-05-13 01:50:48', '0000-00-00 00:00:00', '', 0, 'http://localhost:8082/?p=3', 0, 'post', '', 0);
+(1, 1, '2014-05-13 01:50:09', '2014-05-13 01:50:09', 'Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2014-05-13 01:50:09', '2014-05-13 01:50:09', '', 0, 'http://localhost/?p=1', 0, 'post', '', 1),
+(2, 1, '2014-05-13 01:50:09', '2014-05-13 01:50:09', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'open', 'open', '', 'sample-page', '', '', '2014-05-13 01:50:09', '2014-05-13 01:50:09', '', 0, 'http://localhost/?page_id=2', 0, 'page', '', 0),
+(3, 1, '2014-05-13 01:50:48', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2014-05-13 01:50:48', '0000-00-00 00:00:00', '', 0, 'http://localhost/?p=3', 0, 'post', '', 0);
 
 -- --------------------------------------------------------
 
