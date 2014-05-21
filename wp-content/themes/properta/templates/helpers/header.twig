@@ -115,16 +115,6 @@
                     {{ main_menu|raw }}
                 </div>
 
-                {% if not wp.get_theme_mod('header_call_to_action_is_hidden') %}
-                  <div class="pull-right">
-
-                          <a href="{{ wp.get_theme_mod('header_call_to_action_url') }}" class="list-property">
-                              <span class="link">{{ wp.get_theme_mod('header_call_to_action_text') }}</span>
-                              <div class="ribbon"><span class="icon icon-normal-circle-plus"></span></div>
-                          </a>
-                      <!-- /.list-property -->
-                  </div><!-- /.pull-right -->
-                {% endif %}
 
             </div>
            <div class="breadcrumb pull-left">

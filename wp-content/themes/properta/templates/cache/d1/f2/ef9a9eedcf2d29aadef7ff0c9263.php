@@ -316,45 +316,21 @@ class __TwigTemplate_d1f2ef9a9eedcf2d29aadef7ff0c9263 extends Twig_Template
         echo "
                 </div>
 
-                ";
-        // line 118
-        if (isset($context["wp"])) { $_wp_ = $context["wp"]; } else { $_wp_ = null; }
-        if ((!$this->getAttribute($_wp_, "get_theme_mod", array(0 => "header_call_to_action_is_hidden"), "method"))) {
-            // line 119
-            echo "                  <div class=\"pull-right\">
 
-                          <a href=\"";
-            // line 121
-            if (isset($context["wp"])) { $_wp_ = $context["wp"]; } else { $_wp_ = null; }
-            echo twig_escape_filter($this->env, $this->getAttribute($_wp_, "get_theme_mod", array(0 => "header_call_to_action_url"), "method"), "html", null, true);
-            echo "\" class=\"list-property\">
-                              <span class=\"link\">";
-            // line 122
-            if (isset($context["wp"])) { $_wp_ = $context["wp"]; } else { $_wp_ = null; }
-            echo twig_escape_filter($this->env, $this->getAttribute($_wp_, "get_theme_mod", array(0 => "header_call_to_action_text"), "method"), "html", null, true);
-            echo "</span>
-                              <div class=\"ribbon\"><span class=\"icon icon-normal-circle-plus\"></span></div>
-                          </a>
-                      <!-- /.list-property -->
-                  </div><!-- /.pull-right -->
-                ";
-        }
-        // line 128
-        echo "
             </div>
            <div class=\"breadcrumb pull-left\">
                ";
-        // line 131
+        // line 121
         if (isset($context["wp"])) { $_wp_ = $context["wp"]; } else { $_wp_ = null; }
         if ($this->getAttribute($_wp_, "function_exists", array(0 => "bcn_display"), "method")) {
-            // line 132
+            // line 122
             echo "                   ";
             if (isset($context["wp"])) { $_wp_ = $context["wp"]; } else { $_wp_ = null; }
             echo twig_escape_filter($this->env, $this->getAttribute($_wp_, "bcn_display"), "html", null, true);
             echo "
                ";
         }
-        // line 134
+        // line 124
         echo "           </div><!-- /.breadcrumb -->
        </div>
    </div>
@@ -374,6 +350,6 @@ class __TwigTemplate_d1f2ef9a9eedcf2d29aadef7ff0c9263 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  358 => 134,  351 => 132,  348 => 131,  343 => 128,  333 => 122,  328 => 121,  324 => 119,  321 => 118,  314 => 115,  304 => 107,  299 => 103,  292 => 101,  285 => 99,  282 => 98,  279 => 97,  274 => 93,  267 => 91,  264 => 90,  261 => 89,  254 => 87,  251 => 86,  248 => 85,  241 => 83,  238 => 82,  235 => 81,  228 => 79,  225 => 78,  222 => 77,  215 => 75,  212 => 74,  209 => 73,  202 => 70,  199 => 69,  196 => 68,  192 => 66,  188 => 63,  185 => 62,  177 => 58,  169 => 57,  166 => 56,  162 => 55,  158 => 54,  153 => 50,  143 => 48,  133 => 46,  130 => 45,  122 => 44,  119 => 43,  115 => 40,  108 => 38,  105 => 37,  85 => 30,  78 => 27,  73 => 25,  66 => 22,  59 => 19,  53 => 17,  45 => 13,  37 => 9,  30 => 6,  23 => 3,  19 => 1,);
+        return array (  334 => 124,  327 => 122,  324 => 121,  314 => 115,  304 => 107,  299 => 103,  292 => 101,  285 => 99,  282 => 98,  279 => 97,  274 => 93,  267 => 91,  264 => 90,  261 => 89,  254 => 87,  251 => 86,  248 => 85,  241 => 83,  238 => 82,  235 => 81,  228 => 79,  225 => 78,  222 => 77,  215 => 75,  212 => 74,  209 => 73,  202 => 70,  199 => 69,  196 => 68,  192 => 66,  188 => 63,  185 => 62,  177 => 58,  169 => 57,  166 => 56,  162 => 55,  158 => 54,  153 => 50,  143 => 48,  133 => 46,  130 => 45,  122 => 44,  119 => 43,  115 => 40,  108 => 38,  105 => 37,  85 => 30,  78 => 27,  73 => 25,  66 => 22,  59 => 19,  53 => 17,  45 => 13,  37 => 9,  30 => 6,  23 => 3,  19 => 1,);
     }
 }

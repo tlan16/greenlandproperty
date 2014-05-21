@@ -34,10 +34,6 @@
         </div>
     </div>
 
-        <h2>{{ wp.__('About Property', 'aviators') }}</h2>
-
-        {{ wp.do_shortcode(wp.apply_filters('the_content', post.post_content))|raw }}
-
         <div class="row">
             <div class="span6">
                 {% include 'properties/amenities.twig' %}
@@ -47,6 +43,12 @@
                 {% include 'properties/property-map.twig' %}
             </div>
 
+        </div>
+        <div>
+        
+        <h2>{{ wp.__('About Property', 'aviators') }}</h2>
+
+        {{ wp.do_shortcode(wp.apply_filters('the_content', post.post_content))|raw }}
         </div>
     </div>
 {% endblock %}

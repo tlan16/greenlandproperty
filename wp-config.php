@@ -69,7 +69,7 @@ $table_prefix  = 'gpg_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+define('WPLANG', 'zh_DE');
 
 /**
  * For developers: WordPress debugging mode.
