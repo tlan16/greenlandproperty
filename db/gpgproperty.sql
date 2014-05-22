@@ -2987,6 +2987,7 @@ CREATE TABLE `gpg_users` (
   KEY `user_nicename` (`user_nicename`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
+
 --
 -- Dumping data for table `gpg_users`
 --
