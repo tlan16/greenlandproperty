@@ -1,0 +1,9 @@
+{% extends 'layout-page-properties-grid.twig' %}
+
+{% block content %}
+    {% include 'properties/properties-grid.twig' %}
+    <div class="show-all">
+        <a href="{{ wp.get_post_type_archive_link('property') }}">{{ wp.__('Show all', 'aviators') }}</a>
+    </div>
+    <hr>
+{% endblock %}
