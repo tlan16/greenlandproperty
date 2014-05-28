@@ -1,0 +1,156 @@
+[22-May-2014 05:29:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[22-May-2014 05:42:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:42:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:43:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:44:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:45:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:46:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[22-May-2014 05:48:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:48:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 05:50:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[22-May-2014 05:57:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[22-May-2014 06:01:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 06:02:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 06:02:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 06:02:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 06:03:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[22-May-2014 06:06:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[22-May-2014 06:07:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 04:07:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 04:10:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[23-May-2014 04:49:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 04:55:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+		' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+			`FromUserName` varchar(30)  NOT NULL,
+			`MsgType` varchar(10)  NOT NULL,
+			`CreateTime` int(10) NOT NULL,
+
+			`Content` longtext  NOT NULL,
+
+			`PicUrl` varchar(255)  NOT NULL,
+
+			`Location_X` double(10,6) NOT NULL,
+			`Location_Y` double(10,6) NOT NULL,
+			`Scale` int(10) NOT NULL,
+			`label` varchar(255)  NOT NULL,
+
+			`Title` text  NOT NULL,
+			`Description` longtext  NOT NULL,
+			`Url` varchar(255)  NOT NULL,
+
+			`Event` varchar(255)  NOT NULL,
+			`EventKey` varchar(255)  NOT NULL,
+
+			`Format` varchar(255)  NOT NULL,
+			`MediaId` text  NOT NULL,
+			`Recognition` text  NOT NULL,
+		 
+			`Response` varchar(255)  NOT NULL,
+			
+			`Ticket` text  NOT NULL,
+			
+			`ip` varchar(100)  NOT NULL,
+			
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[23-May-2014 04:55:29 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `openid` varchar(30) NOT NULL,
+		  `nickname` varchar(50) NOT NULL COMMENT '昵称',
+		  `name` varchar(50) NOT NULL COMMENT '姓名',
+		  `phone` varchar(20) NOT NULL COMMENT '电话号码',
+		  `id_card` varchar(18) NOT NULL COMMENT '身份证',
+		  `address` text NOT NULL COMMENT '地址',
+		  `subscribe` int(1) NOT NULL default '1',
+		  `subscribe_time` int(10) NOT NULL,
+		  `sex` int(1) NOT NULL,
+		  `city` varchar(255) NOT NULL,
+		  `country` varchar(255) NOT NULL,
+		  `province` varchar(255) NOT NULL,
+		  `language` varchar(255) NOT NULL,
+		  `headimgurl` varchar(255) NOT NULL,
+		  `last_update` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  UNIQUE KEY `weixin_openid` (`openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[23-May-2014 04:55:29 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `weixin_openid` varchar(30) NOT NULL,
+		  `operator_id` bigint(20) default NULL,
+		  `credit_change` int(10) NOT NULL COMMENT '本次变动的积分',
+		  `credit` int(10) NOT NULL COMMENT '变动后的总积分',
+		  `exp_change` int(10) NOT NULL COMMENT '本次变动的经验值',
+		  `exp` int(10) NOT NULL COMMENT '变动后的总经验值',
+		  `type` varchar(20) NOT NULL COMMENT '积分变动类型',
+		  `post_id` bigint(20) NOT NULL default '0',
+		  `note` varchar(255) NOT NULL COMMENT '备注',
+		  `limit` int(1) NOT NULL default '0' COMMENT '是否到每日积分上限',
+		  `time` datetime NOT NULL COMMENT '+8时区',
+		  `url` char(255) NOT NULL COMMENT '操作的相关 URL',
+		  PRIMARY KEY  (`id`),
+		  KEY `type` (`type`),
+		  KEY `weixin_openid` (`weixin_openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[23-May-2014 04:55:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NUL' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NULL,
+			`match` varchar(10)  NOT NULL DEFAULT 'full',
+			`reply` text  NOT NULL,
+			`status` int(1) NOT NULL DEFAULT '1',
+			`time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+			`type` varchar(10)  NOT NULL DEFAULT 'text',
+			PRIMARY KEY (`id`),
+			UNIQUE KEY `keyword` (`keyword`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[23-May-2014 04:55:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`n' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`name` varchar(255)  NOT NULL,
+			`type` varchar(31)  NOT NULL,
+			`ticket` text  NOT NULL,
+			`expire` int(10) NOT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[23-May-2014 05:34:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 05:38:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 05:50:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 05:53:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:12:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:18:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:22:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:24:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:25:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:28:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:38:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:43:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:50:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[23-May-2014 06:51:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[23-May-2014 06:52:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 10:06:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:01:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:03:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 11:03:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 11:04:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 11:04:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 11:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:07:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:10:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:23:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:34:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 11:38:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[24-May-2014 12:05:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[24-May-2014 12:05:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
