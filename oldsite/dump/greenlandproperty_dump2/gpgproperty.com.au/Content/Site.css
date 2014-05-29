@@ -1,0 +1,1055 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#OuterContent {
+  position: relative;
+  margin: auto auto;
+  width: 1060px;
+  height: auto;
+  min-height: 1090px;
+  border: 1px solid #DDD;
+  /****Style the footer***/ }
+  #OuterContent #InnerContent {
+    position: relative;
+    margin: auto auto;
+    min-height: 1090px;
+    width: 1060px -2px;
+    height: auto; }
+    #OuterContent #InnerContent div#Header {
+      width: 100%;
+      height: 225px;
+      max-height: 225px;
+      /*****	Style the target language	 **/ }
+      #OuterContent #InnerContent div#Header div#Target-Language {
+        position: absolute;
+        color: #000;
+        width: 1060px;
+        height: 30px;
+        text-align: right;
+        z-index: 2; }
+        #OuterContent #InnerContent div#Header div#Target-Language span {
+          display: block; }
+          #OuterContent #InnerContent div#Header div#Target-Language span > a:visited, #OuterContent #InnerContent div#Header div#Target-Language span > a:hover, #OuterContent #InnerContent div#Header div#Target-Language span > a:active {
+            color: blue; }
+      #OuterContent #InnerContent div#Header div#Logo img {
+        position: absolute;
+        z-index: 1;
+        margin-left: 30px;
+        margin-top: 10px;
+        width: 195px;
+        height: 165px; }
+      #OuterContent #InnerContent div#Header div#Logo span {
+        position: absolute;
+        font-size: 20pt;
+        width: 1060px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        text-shadow: 0 1px 1px black;
+        background: url("lib/Orange.png") repeat-x 0 0;
+        border: 1px solid #DDD;
+        margin-top: 80px;
+        text-align: center; }
+      #OuterContent #InnerContent div#Header div#General-Search {
+        position: absolute;
+        height: 30px;
+        width: 1060px;
+        text-align: right;
+        z-index: 2;
+        margin-top: 140px; }
+        #OuterContent #InnerContent div#Header div#General-Search > form.Search-Content-Box {
+          position: absolute;
+          z-index: 5;
+          width: 200px;
+          right: 0;
+          margin-right: 2px; }
+          #OuterContent #InnerContent div#Header div#General-Search > form.Search-Content-Box > input {
+            float: left;
+            height: 20px;
+            margin-top: 2px; }
+          #OuterContent #InnerContent div#Header div#General-Search > form.Search-Content-Box > input[type="text"] {
+            width: 130px;
+            text-indent: 5px;
+            font-size: 8pt; }
+          #OuterContent #InnerContent div#Header div#General-Search > form.Search-Content-Box input[type="submit"] {
+            width: 65px;
+            height: 24px;
+            line-height: 20px;
+            padding: 0;
+            font-size: 8pt;
+            margin-top: 1px; }
+    #OuterContent #InnerContent nav#Main-Navigation {
+      position: absolute;
+      top: 195px;
+      width: 100%;
+      height: 30px;
+      background: #3a6629;
+      border-bottom: 3px outset black;
+      -moz-box-shadow: 0 1px 2px 0 black;
+      -webkit-box-shadow: 0 1px 2px 0 black;
+      /*	*/
+      box-shadow: 0 1px 2px 0 black;
+      z-index: 1000; }
+      #OuterContent #InnerContent nav#Main-Navigation form.Search-Box {
+        position: absolute;
+        width: 200px;
+        right: 0;
+        top: 0;
+        margin-top: 2px; }
+        #OuterContent #InnerContent nav#Main-Navigation form.Search-Box > input {
+          float: left;
+          height: 20px;
+          margin-top: 2px; }
+        #OuterContent #InnerContent nav#Main-Navigation form.Search-Box > input[type="text"] {
+          width: 130px;
+          text-indent: 5px;
+          font-size: 8pt; }
+        #OuterContent #InnerContent nav#Main-Navigation form.Search-Box input[type="submit"] {
+          width: 65px;
+          height: 24px;
+          line-height: 20px;
+          padding: 0;
+          font-size: 8pt;
+          margin-top: 1px; }
+      #OuterContent #InnerContent nav#Main-Navigation > ul:after, #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block:after {
+        content: '';
+        clear: both;
+        display: block; }
+      #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block {
+        width: 80%;
+        width: 1060px;
+        position: relative;
+        padding: 0; }
+        #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li {
+          float: left;
+          list-style: none; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li:first-child a {
+            border-left: none; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li:last-child > a, #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li:first-child > a {
+            border-right: 1px solid #e0e0e0;
+            display: block; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li:hover > ul {
+            position: absolute;
+            visibility: visible;
+            border: none;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black; }
+            #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li:hover > ul li a {
+              display: block; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > a {
+            border: none;
+            text-decoration: none;
+            cursor: pointer;
+            display: block;
+            padding: 0 5px;
+            border-left: 1px solid #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 8pt;
+            font-family: Arial;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            width: 130px;
+            height: 30px;
+            line-height: 30px;
+            text-shadow: 0 1px 1px black;
+            -moz-box-shadow: 0 1px 2px 0 black;
+            -webkit-box-shadow: 0 1px 2px 0 black;
+            /*	*/
+            box-shadow: 0 1px 2px 0 black; }
+            #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > a:hover {
+              text-shadow: 0 1px 1px black; }
+              #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > a:hover:before {
+                bottom: 0;
+                margin-left: 55px;
+                position: absolute;
+                display: block;
+                content: '';
+                width: 0;
+                height: 0;
+                border-left: 7px solid transparent;
+                border-right: 7px solid transparent;
+                border-bottom: 7px solid white; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > a.Current:before {
+            bottom: 0;
+            margin-left: 55px;
+            position: absolute;
+            display: block;
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-bottom: 7px solid white; }
+          #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul {
+            visibility: hidden;
+            position: absolute;
+            z-index: 3;
+            margin: 0;
+            border: 2px solid white;
+            -moz-box-shadow: 0 1px 2px 0 black;
+            -webkit-box-shadow: 0 1px 2px 0 black;
+            /*	*/
+            box-shadow: 0 1px 2px 0 black; }
+            #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul:before {
+              top: 0;
+              margin-top: -7px;
+              margin-left: 60px;
+              position: absolute;
+              display: block;
+              content: '';
+              width: 0;
+              height: 0;
+              border-left: 7px solid transparent;
+              border-right: 7px solid transparent;
+              border-bottom: 7px solid white; }
+            #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul > li {
+              list-style: none;
+              float: none;
+              clear: both;
+              border: none;
+              display: block;
+              background: white;
+              width: 180px;
+              height: 30px;
+              line-height: 30px; }
+              #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul > li:hover {
+                background: #e07c1a; }
+              #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul > li > a {
+                text-indent: 5px;
+                display: block;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 7pt;
+                font-family: Arial;
+                text-transform: uppercase;
+                text-align: left;
+                color: black;
+                width: 180px;
+                height: 30px;
+                line-height: auto;
+                -moz-box-shadow: 0 1px 2px 0 white;
+                -webkit-box-shadow: 0 1px 2px 0 white;
+                /*	*/
+                box-shadow: 0 1px 2px 0 white; }
+                #OuterContent #InnerContent nav#Main-Navigation > ul#Menu-Block > li > ul > li > a:hover {
+                  color: white;
+                  display: block;
+                  text-shadow: 0 1px 1px black; }
+    #OuterContent #InnerContent div#Content {
+      font-size: 0.75em;
+      font-family: Arial, Helvetica, sans-serif;
+      /**Style the news*/
+      /**Style recommend property list table*/
+      /**Style property list table*/ }
+      #OuterContent #InnerContent div#Content .Not-Found {
+        position: absolute;
+        -moz-box-shadow: 0 1px 2px 0 black;
+        -webkit-box-shadow: 0 1px 2px 0 black;
+        /*	*/
+        box-shadow: 0 1px 2px 0 black;
+        padding: 0;
+        margin: 120px 5px auto 5px;
+        display: block;
+        margin-left: 240px;
+        font-family: Arial;
+        text-align: center;
+        width: 809px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 13pt; }
+      #OuterContent #InnerContent div#Content div.Recommendation {
+        z-index: 5;
+        margin: 0;
+        padding: 0;
+        float: left;
+        top: 10px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 5px;
+        position: relative;
+        width: 241px -10px;
+        height: auto;
+        display: block; }
+        #OuterContent #InnerContent div#Content div.Recommendation > span.Title {
+          display: block;
+          height: 241px -10px;
+          line-height: 35px;
+          width: 230px;
+          text-align: center;
+          color: #fff;
+          background: #3a6629;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1em;
+          font-family: Arial, Helvetica, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          color: white; }
+        #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block {
+          width: 228px;
+          height: 225px;
+          margin-bottom: 10px;
+          border: 1px solid #DDD; }
+          #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block > a {
+            cursor: pointer;
+            display: block;
+            width: 200px;
+            height: 165px;
+            border: 1px solid #DDD;
+            margin: 10px auto;
+            background: #ededed; }
+            #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block > a > img {
+              width: 190px;
+              height: 155px;
+              padding: 5px 5px; }
+          #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block span.Suggest-Address {
+            width: 200px;
+            display: block;
+            text-indent: 15px;
+            height: 21px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 8pt;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            text-align: left;
+            color: black; }
+          #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec {
+            font-size: 10pt;
+            height: 17px;
+            list-style: none;
+            width: auto; }
+            #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li {
+              float: left;
+              display: inline-block;
+              margin-left: 4px; }
+            #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li.Bedroom, #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li.Bathroom, #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li.Car {
+              width: auto;
+              height: 17px;
+              line-height: 18px;
+              text-indent: 20px;
+              display: inline-block;
+              background: url("lib/spec.png") no-repeat; }
+            #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li.Bathroom {
+              background-position: 0 -17px; }
+            #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block ul.House-Spec li.Car {
+              background-position: 0 -34px; }
+          #OuterContent #InnerContent div#Content div.Recommendation > div.Recommend-Block > ul.House-Spec {
+            margin: 0 0 3px 5px; }
+      #OuterContent #InnerContent div#Content div.News-Block {
+        position: relative;
+        margin: 60px 15px;
+        width: 1030px;
+        /*
+        #accordion,#agent-accordion{
+        			//@include StandardText(#fff, 12pt,$MenuFont);
+        			
+        			>h3{ background:$PropertyTableBgColor;
+        				//font-size:10pt;color:#fff;text-transform:uppercase;font-family: $MenuFont;
+        				@include StandardText(#fff, 9pt,$MenuFont,left,normal,uppercase);
+        				@include BoxShadow (#000);@include TextShadow(#000);
+        				@include StandardDimension(auto,30px,30px);	
+        				cursor:pointer;
+        				}
+        
+        
+        }
+        */ }
+        #OuterContent #InnerContent div#Content div.News-Block > span.Title {
+          display: block;
+          height: 30px;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 12pt;
+          font-family: Arial;
+          text-transform: normal;
+          text-align: left;
+          color: black; }
+        #OuterContent #InnerContent div#Content div.News-Block div#accordion > h3, #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > h3 {
+          background: #3a6629;
+          color: white;
+          font-weight: normal;
+          line-height: 30px;
+          text-indent: 25px;
+          font-size: 10pt;
+          font-family: Arial;
+          cursor: pointer;
+          border: 1px solid #ccc;
+          -moz-box-shadow: 0 1px 2px 0 black;
+          -webkit-box-shadow: 0 1px 2px 0 black;
+          /*	*/
+          box-shadow: 0 1px 2px 0 black;
+          text-shadow: 0 1px 1px black; }
+          #OuterContent #InnerContent div#Content div.News-Block div#accordion > h3 > span.News-Date, #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > h3 > span.News-Date {
+            float: right;
+            margin-right: 10px; }
+        #OuterContent #InnerContent div#Content div.News-Block div#accordion > div, #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div {
+          font-size: 10pt;
+          height: auto;
+          margin: 30px auto;
+          width: 90%;
+          padding: 20px;
+          border: 1px solid #DDD;
+          -moz-box-shadow: 0 1px 2px 0 black;
+          -webkit-box-shadow: 0 1px 2px 0 black;
+          /*	*/
+          box-shadow: 0 1px 2px 0 black; }
+        #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div {
+          display: block;
+          clear: both;
+          float: none;
+          width: 80%;
+          height: 230px; }
+          #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div > div.Agent-Profile {
+            float: left;
+            display: inline-block;
+            width: 230px;
+            height: 230px;
+            background: #3a6629;
+            margin-right: 30px; }
+            #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div > div.Agent-Profile > img {
+              border: 1px solid #fff;
+              width: 210px;
+              height: 205px;
+              display: inline-block;
+              margin: 5px 5px;
+              padding: 5px 5px;
+              background: #ededed; }
+          #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div > table.Agent-Detail {
+            width: 400px;
+            border-collapse: collapse; }
+            #OuterContent #InnerContent div#Content div.News-Block div#agent-accordion > div > table.Agent-Detail tr td {
+              height: 21px; }
+      #OuterContent #InnerContent div#Content table.GPG-Suggest {
+        position: relative;
+        margin: 30px auto 0 auto;
+        width: 1050px;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        padding: 0; }
+        #OuterContent #InnerContent div#Content table.GPG-Suggest thead tr th {
+          height: 30px;
+          width: 100%;
+          text-algin: center;
+          font-size: 1em;
+          text-transform: uppercase;
+          font-weight: bold;
+          background: #3a6629;
+          text-shadow: 0 1px 1px black;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 1em;
+          font-family: Arial, Helvetica, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          color: white; }
+        #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td {
+          text-align: center;
+          padding-top: 15px;
+          padding-bottom: 15px; }
+          #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td div.Unit-Suggest {
+            background: #ededed;
+            text-shadow: 0 1px 1px #888888;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            color: black;
+            position: relative;
+            margin: auto auto;
+            padding: 15px 1px 5px 1px;
+            height: auto;
+            width: 200px;
+            /**Thumb image style included*/
+            /**Thumb image style included*/ }
+            #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td div.Unit-Suggest span.Banner {
+              position: absolute;
+              background: url("lib/Banner.html");
+              margin-left: -26px;
+              margin-top: -15px;
+              z-index: 2;
+              width: 200px;
+              height: 35px; }
+            #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td div.Unit-Suggest span.Thumb img {
+              width: 190px;
+              height: 175px; }
+            #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td div.Unit-Suggest span.Thumb img {
+              border: 2px solid #fff; }
+            #OuterContent #InnerContent div#Content table.GPG-Suggest tbody tr td div.Unit-Suggest span.Unit-Address {
+              font-size: 1em;
+              font-weight: bold;
+              display: block;
+              width: 100%;
+              height: 30px; }
+      #OuterContent #InnerContent div#Content table.Property-List {
+        position: relative;
+        margin: 0 auto 20px 240px;
+        top: 10px;
+        width: 819px;
+        border-collapse: collapse; }
+        #OuterContent #InnerContent div#Content table.Property-List tr {
+          height: 270px; }
+          #OuterContent #InnerContent div#Content table.Property-List tr td {
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            display: block;
+            width: 819px;
+            height: 260px;
+            background: #fff;
+            /****Style Thumbnail of each property ***/
+            /***Style the house summary***/ }
+            #OuterContent #InnerContent div#Content table.Property-List tr td span.Address {
+              background: #3a6629;
+              width: 100%;
+              height: 35px;
+              line-height: 35px;
+              text-shadow: 0 1px 1px black;
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 1em;
+              font-family: Arial, Helvetica, sans-serif;
+              text-transform: uppercase;
+              text-align: left;
+              color: white;
+              display: block;
+              text-indent: 3px; }
+              #OuterContent #InnerContent div#Content table.Property-List tr td span.Address span.Property-Reference {
+                float: right;
+                width: auto;
+                margin-right: 3px; }
+            #OuterContent #InnerContent div#Content table.Property-List tr td span.Thumb {
+              float: left;
+              width: 265px;
+              height: 85px; }
+              #OuterContent #InnerContent div#Content table.Property-List tr td span.Thumb img {
+                width: 265px;
+                height: 225px; }
+            #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary {
+              position: relative;
+              float: right;
+              width: 554px;
+              max-width: 554px;
+              height: 225px;
+              /**Style house description*/
+              /**Style house more details*/ }
+              #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Summary {
+                float: right;
+                text-align: right;
+                right: 0;
+                position: absolute;
+                /**Style house price and house status*/ }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Summary ul.House-Price {
+                  margin-right: 5px;
+                  width: auto;
+                  list-style: none; }
+                  #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Summary ul.House-Price li {
+                    width: auto;
+                    list-style: none;
+                    height: 20px;
+                    display: block;
+                    text-align: center;
+                    font-size: 10pt; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Summary span.Market-Status {
+                  float: right;
+                  text-align: center;
+                  color: #fff;
+                  background: #3a6629;
+                  overflow: hidden;
+                  width: 120px;
+                  display: block;
+                  font-size: 8pt;
+                  text-transform: uppercase;
+                  height: 22px;
+                  line-height: 22px;
+                  font-weight: bold;
+                  text-shadow: 0 1px 1px black;
+                  -moz-box-shadow: 0 1px 2px 0 black;
+                  -webkit-box-shadow: 0 1px 2px 0 black;
+                  /*	*/
+                  box-shadow: 0 1px 2px 0 black; }
+              #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec {
+                font-size: 10pt;
+                height: 17px;
+                list-style: none;
+                width: auto; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li {
+                  float: left;
+                  display: inline-block;
+                  margin-left: 4px; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li.Bedroom, #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li.Bathroom, #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li.Car {
+                  width: auto;
+                  height: 17px;
+                  line-height: 18px;
+                  text-indent: 20px;
+                  display: inline-block;
+                  background: url("lib/spec.png") no-repeat; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li.Bathroom {
+                  background-position: 0 -17px; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.House-Spec li.Car {
+                  background-position: 0 -34px; }
+              #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Brief {
+                margin-top: 35px;
+                margin-left: 5px;
+                width: 544px;
+                font-size: 1em;
+                line-height: 1.2em;
+                height: 7em;
+                max-height: 7em; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Brief img {
+                  display: none; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary div.House-Brief > * {
+                  margin-left: 4px; }
+              #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.More-Details {
+                position: absolute;
+                right: 0;
+                bottom: 0; }
+                #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.More-Details li {
+                  float: left;
+                  list-style: none;
+                  text-align: center;
+                  font-weight: bold; }
+                  #OuterContent #InnerContent div#Content table.Property-List tr td div.GPG-Summary ul.More-Details li a {
+                    display: inline-block;
+                    width: 80px;
+                    height: 30px;
+                    line-height: 30px;
+                    color: blue !important; }
+      #OuterContent #InnerContent div#Content div.Total-Page {
+        margin-left: 240px; }
+      #OuterContent #InnerContent div#Content .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 20px 20px;
+        border-radius: 4px; }
+        #OuterContent #InnerContent div#Content .pagination > li {
+          display: inline; }
+          #OuterContent #InnerContent div#Content .pagination > li > a, #OuterContent #InnerContent div#Content .pagination > li > span {
+            position: relative;
+            float: left;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.428571429;
+            text-decoration: none;
+            background-color: #ffffff;
+            border: 1px solid #dddddd; }
+          #OuterContent #InnerContent div#Content .pagination > li:first-child > a, #OuterContent #InnerContent div#Content .pagination > li:first-child > span {
+            margin-left: 0;
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px; }
+          #OuterContent #InnerContent div#Content .pagination > li:last-child > a, #OuterContent #InnerContent div#Content .pagination > li:last-child > span {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px; }
+          #OuterContent #InnerContent div#Content .pagination > li > a:hover, #OuterContent #InnerContent div#Content .pagination > li > span:hover, #OuterContent #InnerContent div#Content .pagination > li > a:focus, #OuterContent #InnerContent div#Content .pagination > li > span:focus {
+            background-color: #eeeeee; }
+        #OuterContent #InnerContent div#Content .pagination > .active > a, #OuterContent #InnerContent div#Content .pagination > .active > span, #OuterContent #InnerContent div#Content .pagination > .active > a:hover, #OuterContent #InnerContent div#Content .pagination > .active > span:hover, #OuterContent #InnerContent div#Content .pagination > .active > a:focus, #OuterContent #InnerContent div#Content .pagination > .active > span:focus {
+          z-index: 2;
+          color: #ffffff;
+          cursor: default;
+          background-color: #3a6629;
+          border-color: #428bca;
+          border-color: #e0e0e0; }
+        #OuterContent #InnerContent div#Content .pagination > .disabled > span {
+          color: #999999;
+          cursor: not-allowed;
+          background-color: #ffffff;
+          border-color: #dddddd; }
+        #OuterContent #InnerContent div#Content .pagination > .disabled > a {
+          color: #999999;
+          cursor: not-allowed;
+          background-color: #ffffff;
+          border-color: #dddddd; }
+          #OuterContent #InnerContent div#Content .pagination > .disabled > a:hover, #OuterContent #InnerContent div#Content .pagination > .disabled > a:focus {
+            color: #999999;
+            cursor: not-allowed;
+            background-color: #ffffff;
+            border-color: #dddddd; }
+      #OuterContent #InnerContent div#Content .pagination-lg > li > a, #OuterContent #InnerContent div#Content .pagination-lg > li > span {
+        padding: 10px 16px;
+        font-size: 18px; }
+      #OuterContent #InnerContent div#Content .pagination-lg > li:first-child > a, #OuterContent #InnerContent div#Content .pagination-lg > li:first-child > span {
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px; }
+      #OuterContent #InnerContent div#Content .pagination-lg > li:last-child > a, #OuterContent #InnerContent div#Content .pagination-lg > li:last-child > span {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px; }
+      #OuterContent #InnerContent div#Content .pagination-sm > li > a, #OuterContent #InnerContent div#Content .pagination-sm > li > span {
+        padding: 5px 10px;
+        font-size: 12px; }
+      #OuterContent #InnerContent div#Content .pagination-sm > li:first-child > a, #OuterContent #InnerContent div#Content .pagination-sm > li:first-child > span {
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px; }
+      #OuterContent #InnerContent div#Content .pagination-sm > li:last-child > a, #OuterContent #InnerContent div#Content .pagination-sm > li:last-child > span {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px; }
+      #OuterContent #InnerContent div#Content .pager {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+        list-style: none; }
+        #OuterContent #InnerContent div#Content .pager:before {
+          display: table;
+          content: " "; }
+        #OuterContent #InnerContent div#Content .pager:after {
+          display: table;
+          content: " ";
+          clear: both; }
+        #OuterContent #InnerContent div#Content .pager:before {
+          display: table;
+          content: " "; }
+        #OuterContent #InnerContent div#Content .pager:after {
+          display: table;
+          content: " ";
+          clear: both; }
+        #OuterContent #InnerContent div#Content .pager li {
+          display: inline; }
+          #OuterContent #InnerContent div#Content .pager li > a, #OuterContent #InnerContent div#Content .pager li > span {
+            display: inline-block;
+            padding: 5px 14px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 15px; }
+          #OuterContent #InnerContent div#Content .pager li > a:hover, #OuterContent #InnerContent div#Content .pager li > a:focus {
+            text-decoration: none;
+            background-color: #eeeeee; }
+        #OuterContent #InnerContent div#Content .pager .next > a, #OuterContent #InnerContent div#Content .pager .next > span {
+          float: right; }
+        #OuterContent #InnerContent div#Content .pager .previous > a, #OuterContent #InnerContent div#Content .pager .previous > span {
+          float: left; }
+        #OuterContent #InnerContent div#Content .pager .disabled > a {
+          color: #999999;
+          cursor: not-allowed;
+          background-color: #ffffff; }
+          #OuterContent #InnerContent div#Content .pager .disabled > a:hover, #OuterContent #InnerContent div#Content .pager .disabled > a:focus {
+            color: #999999;
+            cursor: not-allowed;
+            background-color: #ffffff; }
+        #OuterContent #InnerContent div#Content .pager .disabled > span {
+          color: #999999;
+          cursor: not-allowed;
+          background-color: #ffffff; }
+      #OuterContent #InnerContent div#Content div.Property-Gallery {
+        position: relative;
+        margin: 30px auto 0 240px;
+        width: 819px;
+        height: 500px; }
+        #OuterContent #InnerContent div#Content div.Property-Gallery > * {
+          padding: 0;
+          margin: 0;
+          left: 0; }
+      #OuterContent #InnerContent div#Content div.Search-Content-Result {
+        position: relative;
+        width: 819px;
+        width: 96%;
+        margin: 50px auto;
+        font-size: 12pt;
+        z-index: 2;
+        padding: 3px 0;
+        -moz-box-shadow: 0 1px 2px 0 black;
+        -webkit-box-shadow: 0 1px 2px 0 black;
+        /*	*/
+        box-shadow: 0 1px 2px 0 black;
+        height: auto; }
+        #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec {
+          font-size: 10pt;
+          height: 17px;
+          list-style: none;
+          width: auto; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li {
+            float: left;
+            display: inline-block;
+            margin-left: 4px; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li.Bedroom, #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li.Bathroom, #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li.Car {
+            width: auto;
+            height: 17px;
+            line-height: 18px;
+            text-indent: 20px;
+            display: inline-block;
+            background: url("lib/spec.png") no-repeat; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li.Bathroom {
+            background-position: 0 -17px; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result ul.House-Spec li.Car {
+            background-position: 0 -34px; }
+        #OuterContent #InnerContent div#Content div.Search-Content-Result > span.Search-Title {
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 11pt;
+          font-family: Verdana, Arial, Helvetica, "Lucida Console", sans-serif;
+          text-transform: normal;
+          text-align: left;
+          color: black;
+          margin-left: 10px; }
+        #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table {
+          width: 100%;
+          height: auto;
+          padding: 20px 0;
+          margin: auto auto; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td, #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table th {
+            width: auto;
+            height: 30px;
+            padding: 3px 10px;
+            text-align: left; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table th {
+            text-transform: uppercase;
+            font-size: 9pt;
+            background: #3a6629;
+            color: #fff;
+            text-shadow: 0 1px 1px black;
+            -moz-box-shadow: 0 1px 2px 0 black;
+            -webkit-box-shadow: 0 1px 2px 0 black;
+            /*	*/
+            box-shadow: 0 1px 2px 0 black; }
+          #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td {
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 10pt;
+            font-family: Verdana, Arial, Helvetica, "Lucida Console", sans-serif;
+            text-transform: normal;
+            text-align: left;
+            color: black; }
+            #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > a {
+              display: block; }
+              #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > a:active, #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > a:hover, #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > a:visited {
+                color: blue; }
+            #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > .House-Brief {
+              margin-top: 15px;
+              margin-left: 5px;
+              width: 544px;
+              font-size: 1em;
+              height: 40px;
+              max-height: 30px; }
+              #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > .House-Brief img {
+                display: none; }
+              #OuterContent #InnerContent div#Content div.Search-Content-Result > table.Search-Result-Table td > .House-Brief > * {
+                margin-left: 4px; }
+      #OuterContent #InnerContent div#Content div.Property-Detail-View {
+        position: relative;
+        margin: 30px auto 120px 240px;
+        width: 819px;
+        font-size: 12pt;
+        z-index: 2;
+        padding: 3px 0;
+        -moz-box-shadow: 0 1px 2px 0 black;
+        -webkit-box-shadow: 0 1px 2px 0 black;
+        /*	*/
+        box-shadow: 0 1px 2px 0 black;
+        height: auto; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View div.General-Feature, #OuterContent #InnerContent div#Content div.Property-Detail-View div.Description, #OuterContent #InnerContent div#Content div.Property-Detail-View span, #OuterContent #InnerContent div#Content div.Property-Detail-View div.Location {
+          margin-left: 20px; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > div.Location {
+          margin: 30px auto;
+          -moz-box-shadow: 0 1px 2px 0 black;
+          -webkit-box-shadow: 0 1px 2px 0 black;
+          /*	*/
+          box-shadow: 0 1px 2px 0 black;
+          width: 779px;
+          height: 300px; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > div.Description {
+          position: relative;
+          margin: 10px auto;
+          font-size: 10pt;
+          font-family: Arial;
+          width: 779px;
+          clear: both; }
+          #OuterContent #InnerContent div#Content div.Property-Detail-View > div.Description img {
+            max-width: 779px;
+            width: 779px;
+            height: auto;
+            -moz-box-shadow: 0 1px 2px 0 black;
+            -webkit-box-shadow: 0 1px 2px 0 black;
+            /*	*/
+            box-shadow: 0 1px 2px 0 black; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature table {
+          float: left;
+          list-style: none;
+          text-decoration: none;
+          font-weight: normal;
+          font-size: 10pt;
+          font-family: Arial;
+          text-transform: normal;
+          text-align: left;
+          color: black;
+          border-collapse: collapse;
+          width: 180px;
+          height: 120px; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile {
+          -moz-box-shadow: 0 1px 2px 0 black;
+          -webkit-box-shadow: 0 1px 2px 0 black;
+          /*	*/
+          box-shadow: 0 1px 2px 0 black;
+          float: right;
+          width: 120px;
+          height: 120px;
+          margin-right: 3px;
+          text-align: center; }
+          #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > div.Profile-Picture, #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span {
+            padding: 3px 3px; }
+          #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > div.Profile-Picture > img {
+            width: 80px;
+            height: 80px; }
+          #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span {
+            font-size: 10pt;
+            text-align: left;
+            margin: 0; }
+            #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span > a {
+              width: 120px;
+              text-decoration: none; }
+              #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span > a:visited, #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span > a:hover, #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span > a:active {
+                color: blue; }
+              #OuterContent #InnerContent div#Content div.Property-Detail-View > div.General-Feature > div.Agent-Profile > span > a:hover {
+                color: #000; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > span {
+          height: 30px;
+          width: auto;
+          line-height: 30px; }
+        #OuterContent #InnerContent div#Content div.Property-Detail-View > span.Property-Reference {
+          float: right;
+          margin-right: 3px;
+          font-size: 10pt; }
+      #OuterContent #InnerContent div#Content div.General {
+        width: 1060px;
+        height: auto;
+        background: #f4ede7;
+        z-index: 1; }
+        #OuterContent #InnerContent div#Content div.General > * {
+          z-index: 1; }
+        #OuterContent #InnerContent div#Content div.General div.General-Information, #OuterContent #InnerContent div#Content div.General div.General-News {
+          position: relative;
+          margin: auto auto;
+          width: 1060px;
+          height: auto; }
+          #OuterContent #InnerContent div#Content div.General div.General-Information > div.General-Image, #OuterContent #InnerContent div#Content div.General div.General-Information > div.General-Description, #OuterContent #InnerContent div#Content div.General div.General-News > div.General-Image, #OuterContent #InnerContent div#Content div.General div.General-News > div.General-Description {
+            width: 90%; }
+          #OuterContent #InnerContent div#Content div.General div.General-Information > div.General-Image, #OuterContent #InnerContent div#Content div.General div.General-News > div.General-Image {
+            width: 96%;
+            background: #fff;
+            margin: auto auto 30px auto;
+            padding: 20px 20px 20px 20px; }
+            #OuterContent #InnerContent div#Content div.General div.General-Information > div.General-Image > img, #OuterContent #InnerContent div#Content div.General div.General-News > div.General-Image > img {
+              height: 380px;
+              width: 100%;
+              border: 1px solid #ddd; }
+          #OuterContent #InnerContent div#Content div.General div.General-Information > div.General-Description, #OuterContent #InnerContent div#Content div.General div.General-News > div.General-Description {
+            font-size: 11pt;
+            font-family: Arial;
+            margin: 30px auto;
+            color: #000; }
+        #OuterContent #InnerContent div#Content div.General div.General-News {
+          background: #fff; }
+          #OuterContent #InnerContent div#Content div.General div.General-News > span.Recent-Title {
+            background: #3a6629;
+            display: block;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-indent: 5px;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 10pt;
+            font-family: Arial;
+            text-transform: uppercase;
+            text-align: left;
+            color: white;
+            -moz-box-shadow: 0 1px 2px 0 black;
+            -webkit-box-shadow: 0 1px 2px 0 black;
+            /*	*/
+            box-shadow: 0 1px 2px 0 black;
+            text-shadow: 0 1px 1px black; }
+          #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block {
+            width: 90%;
+            margin: 10px 10px; }
+            #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block a.News-Title {
+              font-family: Arial;
+              font-size: 12pt;
+              text-decoration: underline;
+              display: inline-block;
+              cursor: pointer; }
+              #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block a.News-Title:visited, #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block a.News-Title:active, #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block a.News-Title:hover {
+                color: #000; }
+            #OuterContent #InnerContent div#Content div.General div.General-News > .News-Block span.Date {
+              margin: auto 10px; }
+  #OuterContent #Footer {
+    clear: both;
+    float: none;
+    min-height: 200px;
+    height: auto;
+    width: 1060px;
+    border: 1px solid #DDD;
+    color: white;
+    background: #3a6629;
+    z-index: 5px; }
+    #OuterContent #Footer div#Social-Pool {
+      position: absolute;
+      z-index: 2;
+      height: 64px;
+      width: 1060px;
+      display: none; }
+      #OuterContent #Footer div#Social-Pool span {
+        position: absolute;
+        width: 1060px;
+        text-align: right;
+        /***** style social icon*/ }
+        #OuterContent #Footer div#Social-Pool span a > img, #OuterContent #Footer div#Social-Pool span a.Linkedin > img, #OuterContent #Footer div#Social-Pool span a.Youtube > img, #OuterContent #Footer div#Social-Pool span a.Twitter > img {
+          width: 40px;
+          height: 40px; }
+    #OuterContent #Footer > table.section {
+      position: relative;
+      border-collapse: collapse;
+      margin: 5px 0 30px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      float: left;
+      display: inline-block;
+      width: 20%;
+      z-index: 5; }
+      #OuterContent #Footer > table.section caption {
+        text-align: left;
+        margin-bottom: 10px;
+        font-family: Verdana, Arial, Helvetica, "Lucida Console", sans-serif;
+        font-size: 12pt;
+        text-shadow: 0 1px 1px black; }
+      #OuterContent #Footer > table.section td a, #OuterContent #Footer > table.section td.Address a {
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        height: 21px;
+        cursor: pointer; }
+        #OuterContent #Footer > table.section td a:visited, #OuterContent #Footer > table.section td a:hover, #OuterContent #Footer > table.section td a:active, #OuterContent #Footer > table.section td.Address a:visited, #OuterContent #Footer > table.section td.Address a:hover, #OuterContent #Footer > table.section td.Address a:active {
+          color: #fff; }
+      #OuterContent #Footer > table.section td.Address a {
+        height: auto;
+        display: block; }
+    #OuterContent #Footer > div.Company-Information {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+      #OuterContent #Footer > div.Company-Information > ul.Company-Detail {
+        position: relative;
+        width: 100%;
+        border-top: 1px solid #fff;
+        margin: 5px auto auto 0;
+        padding-top: 5px;
+        list-style: none; }
+        #OuterContent #Footer > div.Company-Information > ul.Company-Detail li {
+          width: auto;
+          height: 21px;
+          float: left;
+          margin-left: 10px;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 9pt;
+          font-family: Arial;
+          text-transform: normal;
+          text-align: left;
+          color: white; }
+
