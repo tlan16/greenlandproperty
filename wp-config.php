@@ -22,7 +22,7 @@ define('DB_NAME', 'gpgproperty');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -81,11 +81,11 @@ define('WPLANG', 'zh_DE');
 define('WP_DEBUG', false);
 
 /* Multisite */
-define( 'WP_ALLOW_MULTISITE', true );
+define( 'WP_ALLOW_MULTISITE', true ); 
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', '127.0.0.1');
-define('PATH_CURRENT_SITE', '/greenlandproperty/');
+define('DOMAIN_CURRENT_SITE', 'localhost');
+define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
