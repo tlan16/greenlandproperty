@@ -7,8 +7,9 @@
                 {% for column in amenities %}
                     <ul class="span2">
                         {% for amenity in column %}
-
-                            <li class="{% if wp.has_term(amenity.term_id, 'amenities', post.ID) %}checked{% else %}plain{% endif %}">{{ amenity.name }}</li>
+							{% if wp.has_term(amenity.term_id, 'amenities', post.ID) %}
+                            	<li class="{% if wp.has_term(amenity.term_id, 'amenities', post.ID) %}checked{% else %}plain{% endif %}">{{ amenity.name }}</li>
+                        	{% endif %}
                         {% endfor %}
                     </ul><!-- /.span2 -->
                 {% endfor %}

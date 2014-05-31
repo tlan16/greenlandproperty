@@ -223,6 +223,7 @@ function aviators_entry_meta() {
 	}
 
 	// Post author
+	/*
 	if ( 'post' == get_post_type() ) {
 		printf( '<span class="author vcard">' . __( 'Posted by', 'aviators' ) . ' <a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span> ' . __( 'on', 'aviators' ) . ' ' . aviators_entry_date(),
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
@@ -230,6 +231,7 @@ function aviators_entry_meta() {
 			get_the_author()
 		);
 	}
+	*/
 }
 
 function aviators_link_pages() {

@@ -17,6 +17,7 @@ if ( ! function_exists( 'add_action' ) ) {
 }
 
 
+
 /**
  * Plugin version and textdomain constants
  */
@@ -374,4 +375,3 @@ function langbf_install_options() {
 	update_option( 'langbf_db_version', LANGBF_VERSION );
 	delete_option( 'langbf_announcement' );
 }
-
