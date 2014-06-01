@@ -212,6 +212,26 @@
 
 <tr>
 	<th>
+		<label><?php echo __( 'Carports', 'aviators' ); ?></label>
+	</th>
+	<td>
+		<?php $mb->the_field( 'carports' ); ?>
+		<input type="text" name="<?php $mb->the_name(); ?>" value="<?php $mb->the_value(); ?>" />
+	</td>
+</tr>
+
+<tr>
+    <th>
+        <label><?php echo __( 'Hide Carports', 'aviators' ); ?></label>
+    </th>
+    <td>
+        <?php $mb->the_field( 'hide_carports' ); ?>
+        <input type="checkbox" name="<?php $mb->the_name(); ?>" value="1" <?php checked( $mb->get_the_value() ); ?>/>
+    </td>
+</tr>
+
+<tr>
+	<th>
 		<label><?php echo __( 'Area', 'aviators' ); ?></label>
 	</th>
 	<td>

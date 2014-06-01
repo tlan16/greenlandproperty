@@ -37,6 +37,17 @@
 
 <div class="control-group">
   <label class="control-label">
+    <?php echo __('Carports', 'aviators'); ?>
+  </label>
+
+  <div class="controls">
+    <?php $mb->the_field('carports'); ?>
+    <input type="number" name="<?php $mb->the_name(); ?>" value="<?php echo get_post_meta($post->ID, '_property_carports', true) ?>">
+  </div>
+</div>
+
+<div class="control-group">
+  <label class="control-label">
     <?php echo __('Area', 'aviators'); ?>
   </label>
 
