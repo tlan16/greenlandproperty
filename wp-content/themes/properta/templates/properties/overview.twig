@@ -64,6 +64,15 @@
                     {% endif %}
                 {% endif %}
 
+                {% if wp.get_post_meta(post.ID, '_property_hide_carports').0 != '1' %}
+                    {% if wp.get_post_meta(post.ID, '_property_carports').0 %}
+                        <tr>
+                            <th>{{ wp.__('Carports', 'aviators') }}:</th>
+                            <td>{{ wp.get_post_meta(post.ID, '_property_carports').0 }}</td>
+                        </tr>
+                    {% endif %}
+                {% endif %}
+
                 {% if wp.get_post_meta(post.ID, '_property_area').0 %}
                     <tr>
                         <th>{{ wp.__('Area', 'aviators') }}:</th>
