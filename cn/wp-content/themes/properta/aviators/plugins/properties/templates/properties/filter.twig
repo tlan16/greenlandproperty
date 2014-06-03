@@ -8,7 +8,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_location') != 'on' %}
                 <div class="location control-group">
                     <label class="control-label" for="inputLocation-{{ id }}">
-                        {{ wp.__('Location', 'aviators') }}
+                        {{ wp.__('地理位置', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -26,7 +26,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_type') != 'on' %}
                 <div class="type control-group">
                     <label class="control-label" for="inputType-{{ id }}">
-                        {{ wp.__('Type', 'aviators') }}
+                        {{ wp.__('类型', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -45,7 +45,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_beds') != 'on' %}
                 <div class="beds control-group">
                     <label class="control-label" for="inputBeds-{{ id }}">
-                        {{ wp.__('Beds', 'aviators') }}
+                        {{ wp.__('卧室', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -64,7 +64,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_baths') != 'on' %}
             <div class="baths control-group">
                 <label class="control-label" for="inputBaths-{{ id }}">
-                    {{ wp.__('Baths', 'aviators') }}
+                    {{ wp.__('浴室', 'aviators') }}
                 </label>
 
                 <div class="controls">
@@ -83,7 +83,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_contract') != 'on' %}
                 <div class="contract control-group">
                     <label class="control-label" for="inputType-{{ id }}">
-                        {{ wp.__('Contract', 'aviators') }}
+                        {{ wp.__('合同', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -102,7 +102,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_price_from') != 'on' %}
                 <div class="price-from control-group">
                     <label class="control-label" for="inputPriceFrom-{{ id }}">
-                        {{ wp.__('Price From', 'aviators') }}
+                        {{ wp.__('价格 （最低）', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -121,7 +121,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_price_to') != 'on' %}
                 <div class="price-to control-group">
                     <label class="control-label" for="inputPriceTo-{{ id }}">
-                        {{ wp.__('Price To', 'aviators') }}
+                        {{ wp.__('价格 （最高）', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -140,7 +140,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_area_from') != 'on' %}
                 <div class="area-from control-group">
                     <label class="control-label" for="inputAreaFrom-{{ id }}">
-                        {{ wp.__('Area From', 'aviators') }}
+                        {{ wp.__('区域（从）', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -152,7 +152,7 @@
             {% if wp.aviators_settings_get_value('properties', 'filter_visibility', 'hide_area_to') != 'on' %}
                 <div class="area-to control-group">
                     <label class="control-label" for="inputAreaTo-{{ id }}">
-                        {{ wp.__('Area To', 'aviators') }}
+                        {{ wp.__('区域 （到）', 'aviators') }}
                     </label>
 
                     <div class="controls">
@@ -162,7 +162,7 @@
             {% endif %}
 
             <div class="form-actions">
-                <button class="btn btn-primary btn-large">{{ wp.__('Filter now!', 'aviators') }}</button>
+                <button class="btn btn-primary btn-large">{{ wp.__('搜索', 'aviators') }}</button>
             </div>
             <!-- /.form-actions -->
         </form>

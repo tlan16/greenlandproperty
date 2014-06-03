@@ -10,7 +10,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_name') %}
             <div class="control-group">
                 <label class="control-label" for="inputName">
-                    {{ wp.__('Name', 'aviators') }}
+                    {{ wp.__('姓名', 'aviators') }}
                     <span class="form-required" title="This field is required.">*</span>
                 </label>
 
@@ -24,7 +24,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_phone') %}
             <div class="control-group">
                 <label class="control-label" for="inputPhone">
-                    {{ wp.__('Phone', 'aviators') }}
+                    {{ wp.__('电话', 'aviators') }}
                     <span class="form-required" title="This field is required.">*</span>
                 </label>
 
@@ -38,7 +38,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_date') %}
             <div class="control-group">
                 <label class="control-label" for="inputDate">
-                    {{ wp.__('Date', 'aviators') }}
+                    {{ wp.__('日期', 'aviators') }}
                     <span class="form-required" title="This field is required.">*</span>
                 </label>
 
@@ -52,7 +52,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_date_from') %}
             <div class="control-group">
                 <label class="control-label" for="inputDate">
-                    {{ wp.__('Date From', 'aviators') }}
+                    {{ wp.__('起始日期', 'aviators') }}
                 </label>
 
                 <div class="controls">
@@ -65,7 +65,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_date_to') %}
             <div class="control-group">
                 <label class="control-label" for="inputDate">
-                    {{ wp.__('Date To', 'aviators') }}
+                    {{ wp.__('截止日期', 'aviators') }}
                 </label>
 
                 <div class="controls">
@@ -78,7 +78,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_email') %}
             <div class="control-group">
                 <label class="control-label" for="inputEmail">
-                    {{ wp.__('Email', 'aviators') }}
+                    {{ wp.__('电子邮箱', 'aviators') }}
                     <span class="form-required" title="This field is required.">*</span>
                 </label>
 
@@ -92,7 +92,7 @@
         {% if not wp.aviators_settings_get_value('properties', 'fields', 'hide_message') %}
             <div class="control-group">
                 <label class="control-label" for="inputMessage">
-                    {{ wp.__('Message', 'aviators') }}
+                    {{ wp.__('消息内容', 'aviators') }}
                     <span class="form-required" title="This field is required.">*</span>
                 </label>
 
@@ -105,7 +105,7 @@
 
         <div class="form-actions">
             <input type="hidden" name="post_id" value="{{ post_id }}">
-            <button class="btn btn-primary arrow-right">{{ wp.__('Send', 'aviators') }}</button>
+            <button class="btn btn-primary arrow-right">{{ wp.__('发送', 'aviators') }}</button>
         </div>
         <!-- /.form-actions -->
     </form>
