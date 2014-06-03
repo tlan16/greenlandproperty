@@ -1,0 +1,298 @@
+0000.001 (0) Opened log file at time: Tue, 03 Jun 2014 12:28:58 +0000 on http://gpgproperty.com.au
+0000.053 (0) [Warning] The amount of memory (RAM) allowed for PHP is very low (64 Mb) - you should increase it to avoid failures due to insufficient memory (consult your web hosting company for more help)
+0000.069 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.13 WP: 3.9.1 PHP: 5.3.27 (Linux webcloud57.au.syrahost.com 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.36-cll Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 1 max_execution_time: 30 memory_limit: 64M (used: 41.9M | 42.3M) multisite: Y mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.085 (0) Free space on disk containing Updraft's temporary directory: 54325.4 Mb
+0000.108 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.268 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.345 (0) Requesting semaphore lock (fd)
+0000.422 (0) Set semaphore last lock (fd) time to 2014-06-03 12:28:58
+0000.447 (0) Semaphore lock (fd) complete
+0000.686 (0) Backup run: resumption=0, nonce=baff03b55c54, begun at=1401798538 (0s ago), job type=backup
+0000.727 (0) Scheduling a resumption (1) after 300 seconds (1401798838) in case this run gets aborted
+0001.031 (0) Checking if we have a zip executable available
+0001.130 (0) Creation of backups of directories: beginning
+0001.250 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0007.143 (0) Total entities for the zip file: 294 directories, 2201 files, 25 Mb
+0007.163 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1.5 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0007.426 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 100 files added (on-disk size: 48.6 Kb)
+0007.474 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 200 files added (on-disk size: 48.6 Kb)
+0007.533 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 300 files added (on-disk size: 48.6 Kb)
+0007.577 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 400 files added (on-disk size: 48.6 Kb)
+0007.624 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 500 files added (on-disk size: 48.6 Kb)
+0007.659 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 Mb, 2201 files batched, 501 (502) added so far); re-opening (prior size: 48.6 Kb)
+0036.992 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 600 files added (on-disk size: 2707.2 Kb)
+0037.348 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 700 files added (on-disk size: 2707.2 Kb)
+0037.608 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 800 files added (on-disk size: 2707.2 Kb)
+0037.689 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 900 files added (on-disk size: 2707.2 Kb)
+0037.787 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1000 files added (on-disk size: 2707.2 Kb)
+0038.024 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (11.4 Mb, 2201 files batched, 501 (1003) added so far); re-opening (prior size: 2707.2 Kb)
+0062.994 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1100 files added (on-disk size: 6789.6 Kb)
+0063.028 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1200 files added (on-disk size: 6789.6 Kb)
+0063.059 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1300 files added (on-disk size: 6789.6 Kb)
+0063.085 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1400 files added (on-disk size: 6789.6 Kb)
+0063.109 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1500 files added (on-disk size: 6789.6 Kb)
+0063.111 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 Mb, 2201 files batched, 501 (1504) added so far); re-opening (prior size: 6789.6 Kb)
+0077.911 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1600 files added (on-disk size: 7656.1 Kb)
+0078.021 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1700 files added (on-disk size: 7656.1 Kb)
+0078.110 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1800 files added (on-disk size: 7656.1 Kb)
+0078.191 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 1900 files added (on-disk size: 7656.1 Kb)
+0078.388 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 2000 files added (on-disk size: 7656.1 Kb)
+0078.481 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 Mb, 2201 files batched, 501 (2005) added so far); re-opening (prior size: 7656.1 Kb)
+0100.923 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 2100 files added (on-disk size: 10118.5 Kb)
+0101.012 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip.tmp: 2200 files added (on-disk size: 10118.5 Kb)
+0114.254 (0) Created plugins zip (0) - 10435.9 Kb in 112.9 s (92.4 Kb/s) (SHA1 checksum: 1c3eb772ecdfbb3da3cf11cb5a615c0887a89012)
+0114.300 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0117.098 (0) Total entities for the zip file: 336 directories, 1323 files, 15.1 Mb
+0117.161 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1.5 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0117.293 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 100 files added (on-disk size: 58.6 Kb)
+0117.367 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 200 files added (on-disk size: 58.6 Kb)
+0117.465 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 300 files added (on-disk size: 58.6 Kb)
+0117.699 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 400 files added (on-disk size: 58.6 Kb)
+0117.794 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 500 files added (on-disk size: 58.6 Kb)
+0117.841 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.7 Mb, 1323 files batched, 501 (502) added so far); re-opening (prior size: 58.6 Kb)
+0145.117 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 600 files added (on-disk size: 5625.1 Kb)
+0145.337 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 700 files added (on-disk size: 5625.1 Kb)
+0145.522 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 800 files added (on-disk size: 5625.1 Kb)
+0145.778 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 900 files added (on-disk size: 5625.1 Kb)
+0145.852 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 1000 files added (on-disk size: 5625.1 Kb)
+0145.893 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 Mb, 1323 files batched, 501 (1003) added so far); re-opening (prior size: 5625.1 Kb)
+0166.156 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 1100 files added (on-disk size: 7450.5 Kb)
+0166.295 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 1200 files added (on-disk size: 7450.5 Kb)
+0166.358 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip.tmp: 1300 files added (on-disk size: 7450.5 Kb)
+0181.653 (0) Created themes zip (0) - 8974.2 Kb in 67.2 s (133.5 Kb/s) (SHA1 checksum: a3146a0e562c4b960789aee6ce7ce1a03ce95a66)
+0181.758 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0181.814 (0) Looking for candidates to back up in: /home2/gpgprope/public_html/wp-content/uploads
+0182.040 (0) finding files: 2013: adding to list (1)
+0182.145 (0) finding files: 2014: adding to list (2)
+0182.304 (0) finding files: sites: adding to list (3)
+0182.393 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0182.787 (0) Total entities for the zip file: 8 directories, 305 files, 19.3 Mb
+0182.845 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0182.922 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0182.975 (0) Zip: backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0267.634 (0) The scheduled resumption is within 45 seconds - will reschedule
+0267.767 (0) Rescheduling resumption 1: moving to 345 seconds from now (1401799150)
+0267.875 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0268.063 (0) Created uploads zip (0) - 19032 Kb in 85.6 s (222.4 Kb/s) (SHA1 checksum: db8b47d365754e063ddf085f629e2a461241036a)
+0268.163 (0) Beginning backup of other directories found in the content directory (index: 0)
+0268.203 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0268.298 (0) Looking for candidates to back up in: /home2/gpgprope/public_html/wp-content
+0268.349 (0) finding files: index.php: adding to list (1)
+0268.443 (0) finding files: languages: adding to list (2)
+0268.534 (0) finding files: plugins: skipping: this is the plugins directory
+0268.595 (0) finding files: themes: skipping: this is the themes directory
+0268.648 (0) finding files: uploads: skipping: this is the uploads directory
+0268.731 (0) finding files: wfcache: adding to list (3)
+0268.806 (0) finding files: upgrade: skipping: excluded by options
+0268.856 (0) finding files: updraft: skipping: this is the updraft directory
+0268.925 (0) Total entities for the zip file: 2 directories, 5 files, 0.3 Mb
+0269.249 (0) Created others zip (0) - 105 Kb in 0.3 s (321.2 Kb/s) (SHA1 checksum: ee52a4a0e70f56219d31ba80a4125d2170508484)
+0269.425 (0) Saving backup status to database (elements: 8)
+0269.995 (0) Beginning creation of database dump (WordPress DB)
+0270.071 (0) Table gpg_options: Total expected rows (approximate): 164
+0270.206 (0) Table gpg_options: Total rows added: 427 in 0.07 seconds
+0270.272 (0) Table gpg_options: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_options.table.gz - 78.4 Kb)
+0270.349 (0) Table gpg_users: Total expected rows (approximate): 3
+0270.422 (0) Table gpg_users: Total rows added: 3 in 0.00 seconds
+0270.487 (0) Table gpg_users: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_users.table.gz - 0.7 Kb)
+0270.533 (0) Table gpg_usermeta: Total expected rows (approximate): 58
+0270.638 (0) Table gpg_usermeta: Total rows added: 58 in 0.01 seconds
+0270.727 (0) Table gpg_usermeta: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_usermeta.table.gz - 1.3 Kb)
+0270.784 (0) Table gpg_blog_versions: Total expected rows (approximate): 0
+0270.874 (0) Table gpg_blog_versions: Total rows added: 0 in 0.00 seconds
+0270.930 (0) Table gpg_blog_versions: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_blog_versions.table.gz - 0.3 Kb)
+0271.002 (0) Table gpg_blogs: Total expected rows (approximate): 1
+0271.057 (0) Table gpg_blogs: Total rows added: 1 in 0.00 seconds
+0271.119 (0) Table gpg_blogs: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_blogs.table.gz - 0.5 Kb)
+0271.189 (0) Table gpg_commentmeta: Total expected rows (approximate): 0
+0271.239 (0) Table gpg_commentmeta: Total rows added: 0 in 0.00 seconds
+0271.349 (0) Table gpg_commentmeta: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_commentmeta.table.gz - 0.3 Kb)
+0271.439 (0) Table gpg_comments: Total expected rows (approximate): 13
+0271.540 (0) Table gpg_comments: Total rows added: 13 in 0.06 seconds
+0271.584 (0) Table gpg_comments: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_comments.table.gz - 1 Kb)
+0271.652 (0) Table gpg_links: Total expected rows (approximate): 0
+0271.744 (0) Table gpg_links: Total rows added: 0 in 0.00 seconds
+0271.775 (0) Table gpg_links: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_links.table.gz - 0.4 Kb)
+0272.432 (0) Table gpg_postmeta: Total expected rows (approximate): 885
+0272.539 (0) Table gpg_postmeta: Total rows added: 957 in 0.04 seconds
+0272.580 (0) Table gpg_postmeta: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_postmeta.table.gz - 14.6 Kb)
+0272.662 (0) Table gpg_posts: Total expected rows (approximate): 320
+0272.846 (0) Table gpg_posts: Total rows added: 286 in 0.11 seconds
+0272.879 (0) Table gpg_posts: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_posts.table.gz - 50.9 Kb)
+0272.973 (0) Table gpg_registration_log: Total expected rows (approximate): 0
+0273.053 (0) Table gpg_registration_log: Total rows added: 0 in 0.03 seconds
+0273.091 (0) Table gpg_registration_log: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_registration_log.table.gz - 0.3 Kb)
+0273.157 (0) Table gpg_signups: Total expected rows (approximate): 0
+0273.207 (0) Table gpg_signups: Total rows added: 0 in 0.01 seconds
+0273.256 (0) Table gpg_signups: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_signups.table.gz - 0.4 Kb)
+0273.326 (0) Table gpg_site: Total expected rows (approximate): 1
+0273.400 (0) Table gpg_site: Total rows added: 1 in 0.00 seconds
+0273.460 (0) Table gpg_site: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_site.table.gz - 0.3 Kb)
+0273.640 (0) Table gpg_sitemeta: Total expected rows (approximate): 22
+0273.712 (0) Table gpg_sitemeta: Total rows added: 22 in 0.00 seconds
+0273.782 (0) Table gpg_sitemeta: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_sitemeta.table.gz - 1.1 Kb)
+0273.852 (0) Table gpg_term_relationships: Total expected rows (approximate): 121
+0273.898 (0) Table gpg_term_relationships: Total rows added: 121 in 0.01 seconds
+0273.956 (0) Table gpg_term_relationships: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_term_relationships.table.gz - 0.7 Kb)
+0274.015 (0) Table gpg_term_taxonomy: Total expected rows (approximate): 37
+0274.113 (0) Table gpg_term_taxonomy: Total rows added: 37 in 0.01 seconds
+0274.180 (0) Table gpg_term_taxonomy: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_term_taxonomy.table.gz - 0.7 Kb)
+0274.393 (0) Table gpg_terms: Total expected rows (approximate): 37
+0274.553 (0) Table gpg_terms: Total rows added: 37 in 0.05 seconds
+0274.619 (0) Table gpg_terms: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_terms.table.gz - 0.9 Kb)
+0274.699 (0) Table gpg_icl_string_translations: Total expected rows (approximate): 0
+0274.775 (0) Table gpg_icl_string_translations: Total rows added: 0 in 0.01 seconds
+0274.860 (0) Table gpg_icl_string_translations: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_icl_string_translations.table.gz - 0.4 Kb)
+0274.921 (0) Table gpg_icl_strings: Total expected rows (approximate): 0
+0275.006 (0) Table gpg_icl_strings: Total rows added: 0 in 0.00 seconds
+0275.048 (0) Table gpg_icl_strings: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_icl_strings.table.gz - 0.3 Kb)
+0275.144 (0) Table gpg_revslider_css: Total expected rows (approximate): 47
+0275.290 (0) Table gpg_revslider_css: Total rows added: 47 in 0.01 seconds
+0275.395 (0) Table gpg_revslider_css: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_css.table.gz - 1.8 Kb)
+0275.447 (0) Table gpg_revslider_layer_animations: Total expected rows (approximate): 0
+0275.514 (0) Table gpg_revslider_layer_animations: Total rows added: 0 in 0.01 seconds
+0275.557 (0) Table gpg_revslider_layer_animations: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_layer_animations.table.gz - 0.3 Kb)
+0275.637 (0) Table gpg_revslider_settings: Total expected rows (approximate): 0
+0275.713 (0) Table gpg_revslider_settings: Total rows added: 0 in 0.02 seconds
+0275.761 (0) Table gpg_revslider_settings: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_settings.table.gz - 0.3 Kb)
+0275.833 (0) Table gpg_revslider_sliders: Total expected rows (approximate): 1
+0275.919 (0) Table gpg_revslider_sliders: Total rows added: 1 in 0.01 seconds
+0275.958 (0) Table gpg_revslider_sliders: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_sliders.table.gz - 1.2 Kb)
+0276.029 (0) Table gpg_revslider_slides: Total expected rows (approximate): 4
+0276.087 (0) Table gpg_revslider_slides: Total rows added: 4 in 0.00 seconds
+0276.148 (0) Table gpg_revslider_slides: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_slides.table.gz - 1.2 Kb)
+0276.268 (0) Table gpg_wfBadLeechers: Total expected rows (approximate): 0
+0276.363 (0) Table gpg_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0276.436 (0) Table gpg_wfBadLeechers: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBadLeechers.table.gz - 0.3 Kb)
+0276.537 (0) Table gpg_wfBlocks: Total expected rows (approximate): 0
+0276.589 (0) Table gpg_wfBlocks: Total rows added: 0 in 0.00 seconds
+0276.647 (0) Table gpg_wfBlocks: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBlocks.table.gz - 0.3 Kb)
+0276.850 (0) Table gpg_wfBlocksAdv: Total expected rows (approximate): 0
+0276.969 (0) Table gpg_wfBlocksAdv: Total rows added: 0 in 0.01 seconds
+0277.019 (0) Table gpg_wfBlocksAdv: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBlocksAdv.table.gz - 0.3 Kb)
+0277.096 (0) Table gpg_wfConfig: Total expected rows (approximate): 109
+0277.152 (0) Table gpg_wfConfig: Total rows added: 109 in 0.02 seconds
+0277.246 (0) Table gpg_wfConfig: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfConfig.table.gz - 2.2 Kb)
+0277.273 (0) Table gpg_wfCrawlers: Total expected rows (approximate): 0
+0277.326 (0) Table gpg_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0277.380 (0) Table gpg_wfCrawlers: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfCrawlers.table.gz - 0.3 Kb)
+0277.440 (0) Table gpg_wfFileMods: Total expected rows (approximate): 0
+0277.487 (0) Table gpg_wfFileMods: Total rows added: 0 in 0.00 seconds
+0277.550 (0) Table gpg_wfFileMods: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfFileMods.table.gz - 0.3 Kb)
+0277.645 (0) Table gpg_wfHits: Total expected rows (approximate): 1
+0277.696 (0) Table gpg_wfHits: Total rows added: 1 in 0.01 seconds
+0277.763 (0) Table gpg_wfHits: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfHits.table.gz - 0.5 Kb)
+0277.828 (0) Table gpg_wfHoover: Total expected rows (approximate): 0
+0277.879 (0) Table gpg_wfHoover: Total rows added: 0 in 0.00 seconds
+0277.926 (0) Table gpg_wfHoover: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfHoover.table.gz - 0.3 Kb)
+0278.021 (0) Table gpg_wfIssues: Total expected rows (approximate): 0
+0278.070 (0) Table gpg_wfIssues: Total rows added: 0 in 0.00 seconds
+0278.132 (0) Table gpg_wfIssues: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfIssues.table.gz - 0.4 Kb)
+0278.193 (0) Table gpg_wfLeechers: Total expected rows (approximate): 1
+0278.254 (0) Table gpg_wfLeechers: Total rows added: 1 in 0.00 seconds
+0278.304 (0) Table gpg_wfLeechers: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLeechers.table.gz - 0.3 Kb)
+0278.373 (0) Table gpg_wfLockedOut: Total expected rows (approximate): 0
+0278.437 (0) Table gpg_wfLockedOut: Total rows added: 0 in 0.01 seconds
+0278.497 (0) Table gpg_wfLockedOut: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLockedOut.table.gz - 0.3 Kb)
+0278.563 (0) Table gpg_wfLocs: Total expected rows (approximate): 3
+0278.652 (0) Table gpg_wfLocs: Total rows added: 3 in 0.01 seconds
+0278.701 (0) Table gpg_wfLocs: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLocs.table.gz - 0.4 Kb)
+0278.804 (0) Table gpg_wfLogins: Total expected rows (approximate): 27
+0278.867 (0) Table gpg_wfLogins: Total rows added: 27 in 0.01 seconds
+0278.984 (0) Table gpg_wfLogins: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLogins.table.gz - 1.1 Kb)
+0279.064 (0) Table gpg_wfNet404s: Total expected rows (approximate): 0
+0279.331 (0) Table gpg_wfNet404s: Total rows added: 0 in 0.00 seconds
+0279.718 (0) Table gpg_wfNet404s: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfNet404s.table.gz - 0.3 Kb)
+0280.006 (0) Table gpg_wfReverseCache: Total expected rows (approximate): 1
+0280.091 (0) Table gpg_wfReverseCache: Total rows added: 1 in 0.00 seconds
+0280.142 (0) Table gpg_wfReverseCache: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfReverseCache.table.gz - 0.4 Kb)
+0280.210 (0) Table gpg_wfScanners: Total expected rows (approximate): 0
+0280.259 (0) Table gpg_wfScanners: Total rows added: 0 in 0.00 seconds
+0280.322 (0) Table gpg_wfScanners: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfScanners.table.gz - 0.3 Kb)
+0280.384 (0) Table gpg_wfStatus: Total expected rows (approximate): 958
+0280.480 (0) Table gpg_wfStatus: Total rows added: 958 in 0.04 seconds
+0280.508 (0) Table gpg_wfStatus: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfStatus.table.gz - 13.9 Kb)
+0280.591 (0) Table gpg_wfThrottleLog: Total expected rows (approximate): 0
+0280.655 (0) Table gpg_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0280.713 (0) Table gpg_wfThrottleLog: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfThrottleLog.table.gz - 0.3 Kb)
+0280.768 (0) Table gpg_wfVulnScanners: Total expected rows (approximate): 0
+0280.853 (0) Table gpg_wfVulnScanners: Total rows added: 0 in 0.01 seconds
+0281.115 (0) Table gpg_wfVulnScanners: finishing file (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfVulnScanners.table.gz - 0.3 Kb)
+0281.210 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_options.table.gz (1/43): adding to final database dump
+0281.313 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_users.table.gz (2/43): adding to final database dump
+0281.368 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_usermeta.table.gz (3/43): adding to final database dump
+0281.424 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_blog_versions.table.gz (4/43): adding to final database dump
+0281.495 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_blogs.table.gz (5/43): adding to final database dump
+0281.703 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_commentmeta.table.gz (6/43): adding to final database dump
+0281.764 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_comments.table.gz (7/43): adding to final database dump
+0281.820 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_links.table.gz (8/43): adding to final database dump
+0281.882 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_postmeta.table.gz (9/43): adding to final database dump
+0281.951 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_posts.table.gz (10/43): adding to final database dump
+0282.012 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_registration_log.table.gz (11/43): adding to final database dump
+0282.052 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_signups.table.gz (12/43): adding to final database dump
+0282.130 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_site.table.gz (13/43): adding to final database dump
+0282.206 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_sitemeta.table.gz (14/43): adding to final database dump
+0282.274 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_term_relationships.table.gz (15/43): adding to final database dump
+0282.322 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_term_taxonomy.table.gz (16/43): adding to final database dump
+0282.377 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_terms.table.gz (17/43): adding to final database dump
+0282.462 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_icl_string_translations.table.gz (18/43): adding to final database dump
+0282.560 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_icl_strings.table.gz (19/43): adding to final database dump
+0282.588 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_css.table.gz (20/43): adding to final database dump
+0282.629 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_layer_animations.table.gz (21/43): adding to final database dump
+0282.673 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_settings.table.gz (22/43): adding to final database dump
+0282.781 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_sliders.table.gz (23/43): adding to final database dump
+0282.838 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_revslider_slides.table.gz (24/43): adding to final database dump
+0282.895 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBadLeechers.table.gz (25/43): adding to final database dump
+0282.938 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBlocks.table.gz (26/43): adding to final database dump
+0282.990 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfBlocksAdv.table.gz (27/43): adding to final database dump
+0283.238 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfConfig.table.gz (28/43): adding to final database dump
+0283.291 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfCrawlers.table.gz (29/43): adding to final database dump
+0283.372 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfFileMods.table.gz (30/43): adding to final database dump
+0283.464 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfHits.table.gz (31/43): adding to final database dump
+0283.553 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfHoover.table.gz (32/43): adding to final database dump
+0283.801 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfIssues.table.gz (33/43): adding to final database dump
+0283.882 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLeechers.table.gz (34/43): adding to final database dump
+0284.046 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLockedOut.table.gz (35/43): adding to final database dump
+0284.092 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLocs.table.gz (36/43): adding to final database dump
+0284.151 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfLogins.table.gz (37/43): adding to final database dump
+0284.205 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfNet404s.table.gz (38/43): adding to final database dump
+0284.479 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfReverseCache.table.gz (39/43): adding to final database dump
+0284.652 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfScanners.table.gz (40/43): adding to final database dump
+0284.700 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfStatus.table.gz (41/43): adding to final database dump
+0284.787 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfThrottleLog.table.gz (42/43): adding to final database dump
+0284.883 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db-table-gpg_wfVulnScanners.table.gz (43/43): adding to final database dump
+0285.004 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db.gz: finished writing out complete database file (144 Kb)
+0285.065 (0) Total database tables backed up: 43 (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db.gz, size: 175431, checksum (SHA1): 9754b75f1562c0e102d6361e2ec2e9193e809750)
+0285.101 (0) Saving backup history
+0285.310 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0285.406 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0285.481 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0285.569 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-others.zip: others: This file has not yet been successfully uploaded: will queue
+0285.647 (0) backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db.gz: db: This file has not yet been successfully uploaded: will queue
+0285.766 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0285.845 (0) Cloud backup selection: none
+0285.921 (0) No remote despatch: user chose no remote backup service
+0286.025 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0286.110 (0) Number of backup sets in history: 6
+0286.171 (0) Examining backup set with datestamp: 1401798744 (Jun 03 2014 12:32:24)
+0286.263 (0) 1401798744: this backup set remains non-empty (1/0); will retain in history
+0286.351 (0) Examining backup set with datestamp: 1401798538 (Jun 03 2014 12:28:58)
+0286.521 (0) 1401798538: db: this set includes a database (backup_2014-06-03-1228_GPG__GreenLand_Property_Group_baff03b55c54-db.gz); db count is now 1
+0286.592 (0) 1401798538: this backup set remains non-empty (1/1); will retain in history
+0286.704 (0) Examining backup set with datestamp: 1401541970 (May 31 2014 13:12:50)
+0286.799 (0) 1401541970: this backup set remains non-empty (1/0); will retain in history
+0286.888 (0) Examining backup set with datestamp: 1401457677 (May 30 2014 13:47:57)
+0286.993 (0) 1401457677: db: this set includes a database (backup_2014-05-30-1347_GPG__GreenLand_Property_Group_a2c06aa829f1-db.gz); db count is now 2
+0287.078 (0) 1401457677: this backup set remains non-empty (1/1); will retain in history
+0287.139 (0) Examining backup set with datestamp: 1401366496 (May 29 2014 12:28:16)
+0287.235 (0) 1401366496: db: this set includes a database (backup_2014-05-29-1228_GPG__GreenLand_Property_Group_49a920c0af9d-db.gz); db count is now 3
+0287.333 (0) 1401366496: this backup set remains non-empty (1/1); will retain in history
+0287.389 (0) Examining backup set with datestamp: 1401366480 (May 29 2014 12:28:00)
+0287.456 (0) 1401366480: this backup set remains non-empty (1/0); will retain in history
+0287.519 (0) Retain: saving new backup history (sets now: 6) and finishing retain operation
+0287.659 (0) Resume backup (baff03b55c54, 0): finish run
+0287.866 (0) Decremented the semaphore (fd) by 1
+0288.027 (0) Semaphore (fd) unlocked
+0288.088 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0288.239 (0) No email will/can be sent - the user has not configured an email address.
+0288.327 (0) The backup apparently succeeded and is now complete

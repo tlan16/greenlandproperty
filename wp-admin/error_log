@@ -154,3 +154,139 @@
 [24-May-2014 11:38:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/widget-listings.php on line 237
 [24-May-2014 12:05:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
 [24-May-2014 12:05:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home5/mylinsco/public_html/gpgproperty/wp-content/plugins/dsidxpress/admin.php on line 1508
+[28-May-2014 10:52:17 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 1506675 bytes) in /home2/gpgprope/public_html/wp-includes/wp-db.php on line 1107
+[28-May-2014 11:01:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[28-May-2014 11:02:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[28-May-2014 12:30:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/admin.php on line 1508
+[28-May-2014 12:31:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/admin.php on line 1508
+[28-May-2014 12:35:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[28-May-2014 12:39:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[28-May-2014 13:08:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[28-May-2014 15:10:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[29-May-2014 20:57:15 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 809107 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[30-May-2014 03:07:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[30-May-2014 22:13:46 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 808978 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[01-Jun-2014 02:21:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 808337 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[02-Jun-2014 11:55:49 UTC] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'Invalid Plugin ("breadcrumb_navxt_admin.php") in bcn_uninstaller::uninstall().' in /home2/gpgprope/public_html/wp-content/plugins/breadcrumb-navxt/class.bcn_uninstaller.php:176
+Stack trace:
+#0 /home2/gpgprope/public_html/wp-content/plugins/breadcrumb-navxt/class.bcn_uninstaller.php(73): bcn_uninstaller->uninstall()
+#1 /home2/gpgprope/public_html/wp-content/plugins/breadcrumb-navxt/uninstall.php(34): bcn_uninstaller_abstract->__construct(Array)
+#2 /home2/gpgprope/public_html/wp-admin/includes/plugin.php(943): include('/home2/gpgprope...')
+#3 /home2/gpgprope/public_html/wp-admin/includes/plugin.php(812): uninstall_plugin('breadcrumb-navx...')
+#4 /home2/gpgprope/public_html/wp-admin/plugins.php(322): delete_plugins(Array)
+#5 {main}
+  thrown in /home2/gpgprope/public_html/wp-content/plugins/breadcrumb-navxt/class.bcn_uninstaller.php on line 176
+[02-Jun-2014 12:43:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+		' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+			`FromUserName` varchar(30)  NOT NULL,
+			`MsgType` varchar(10)  NOT NULL,
+			`CreateTime` int(10) NOT NULL,
+
+			`Content` longtext  NOT NULL,
+
+			`PicUrl` varchar(255)  NOT NULL,
+
+			`Location_X` double(10,6) NOT NULL,
+			`Location_Y` double(10,6) NOT NULL,
+			`Scale` int(10) NOT NULL,
+			`label` varchar(255)  NOT NULL,
+
+			`Title` text  NOT NULL,
+			`Description` longtext  NOT NULL,
+			`Url` varchar(255)  NOT NULL,
+
+			`Event` varchar(255)  NOT NULL,
+			`EventKey` varchar(255)  NOT NULL,
+
+			`Format` varchar(255)  NOT NULL,
+			`MediaId` text  NOT NULL,
+			`Recognition` text  NOT NULL,
+		 
+			`Response` varchar(255)  NOT NULL,
+			
+			`Ticket` text  NOT NULL,
+			
+			`ip` varchar(100)  NOT NULL,
+			
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:43:07 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `openid` varchar(30) NOT NULL,
+		  `nickname` varchar(50) NOT NULL COMMENT '昵称',
+		  `name` varchar(50) NOT NULL COMMENT '姓名',
+		  `phone` varchar(20) NOT NULL COMMENT '电话号码',
+		  `id_card` varchar(18) NOT NULL COMMENT '身份证',
+		  `address` text NOT NULL COMMENT '地址',
+		  `subscribe` int(1) NOT NULL default '1',
+		  `subscribe_time` int(10) NOT NULL,
+		  `sex` int(1) NOT NULL,
+		  `city` varchar(255) NOT NULL,
+		  `country` varchar(255) NOT NULL,
+		  `province` varchar(255) NOT NULL,
+		  `language` varchar(255) NOT NULL,
+		  `headimgurl` varchar(255) NOT NULL,
+		  `last_update` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  UNIQUE KEY `weixin_openid` (`openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:43:07 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `weixin_openid` varchar(30) NOT NULL,
+		  `operator_id` bigint(20) default NULL,
+		  `credit_change` int(10) NOT NULL COMMENT '本次变动的积分',
+		  `credit` int(10) NOT NULL COMMENT '变动后的总积分',
+		  `exp_change` int(10) NOT NULL COMMENT '本次变动的经验值',
+		  `exp` int(10) NOT NULL COMMENT '变动后的总经验值',
+		  `type` varchar(20) NOT NULL COMMENT '积分变动类型',
+		  `post_id` bigint(20) NOT NULL default '0',
+		  `note` varchar(255) NOT NULL COMMENT '备注',
+		  `limit` int(1) NOT NULL default '0' COMMENT '是否到每日积分上限',
+		  `time` datetime NOT NULL COMMENT '+8时区',
+		  `url` char(255) NOT NULL COMMENT '操作的相关 URL',
+		  PRIMARY KEY  (`id`),
+		  KEY `type` (`type`),
+		  KEY `weixin_openid` (`weixin_openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:43:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NUL' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NULL,
+			`match` varchar(10)  NOT NULL DEFAULT 'full',
+			`reply` text  NOT NULL,
+			`status` int(1) NOT NULL DEFAULT '1',
+			`time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+			`type` varchar(10)  NOT NULL DEFAULT 'text',
+			PRIMARY KEY (`id`),
+			UNIQUE KEY `keyword` (`keyword`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:43:07 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`n' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`name` varchar(255)  NOT NULL,
+			`type` varchar(31)  NOT NULL,
+			`ticket` text  NOT NULL,
+			`expire` int(10) NOT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:45:30 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 815487 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[02-Jun-2014 15:10:22 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 262144 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[03-Jun-2014 12:30:13 UTC] WordPress database error Table 'gpgprope_gpgproperty.gpg_blogs' doesn't exist for query SELECT * FROM gpg_blogs WHERE domain = 'gpgproperty.com.au' AND path = '/' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), require('wp-includes/ms-settings.php'), get_site_by_path
+[03-Jun-2014 12:32:17 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 814589 bytes) in /home2/gpgprope/public_html/wp-content/plugins/wordfence/lib/wfConfig.php on line 563
+[03-Jun-2014 12:45:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[03-Jun-2014 12:45:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[03-Jun-2014 12:55:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237
+[03-Jun-2014 12:55:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home2/gpgprope/public_html/wp-content/plugins/dsidxpress/widget-listings.php on line 237

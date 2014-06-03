@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'mylinsco_gpgproperty');
+define('DB_NAME', 'gpgprope_gpgproperty');
 
 /** MySQL database username */
-define('DB_USER', 'mylinsco');
+define('DB_USER', 'gpgprope_main');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'i1008323I!');
+define('DB_PASSWORD', 'gpg123property');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -79,6 +79,16 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+
+define( 'WP_ALLOW_MULTISITE', true );
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'gpgproperty.com.au');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+
 
 /* That's all, stop editing! Happy blogging. */
 

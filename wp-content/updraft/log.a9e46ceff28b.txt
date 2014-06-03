@@ -1,0 +1,776 @@
+0000.001 (0) Opened log file at time: Sun, 01 Jun 2014 12:44:23 +0000 on http://gpgproperty.com.au
+0000.048 (0) [Warning] The amount of memory (RAM) allowed for PHP is very low (64 Mb) - you should increase it to avoid failures due to insufficient memory (consult your web hosting company for more help)
+0000.064 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.13 WP: 3.9.1 PHP: 5.3.27 (Linux webcloud57.au.syrahost.com 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.36-cll Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 1 max_execution_time: 30 memory_limit: 64M (used: 41.4M | 41.8M) multisite: N mcrypt: Y ZipArchive::addFile: Y W3TC/ObjectCache: N
+0000.085 (0) Free space on disk containing Updraft's temporary directory: 30386.8 Mb
+0000.126 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.145 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.196 (0) Requesting semaphore lock (fd)
+0000.293 (0) Set semaphore last lock (fd) time to 2014-06-01 12:44:23
+0000.313 (0) Semaphore lock (fd) complete
+0000.374 (0) Backup run: resumption=0, nonce=a9e46ceff28b, begun at=1401626663 (0s ago), job type=backup
+0000.394 (0) Scheduling a resumption (1) after 300 seconds (1401626963) in case this run gets aborted
+0000.453 (0) Checking if we have a zip executable available
+0000.479 (0) Creation of backups of directories: beginning
+0000.544 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0004.272 (0) Total entities for the zip file: 217 directories, 1930 files, 24 Mb
+0004.298 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1.5 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0004.413 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 100 files added (on-disk size: 33.7 Kb)
+0004.459 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 200 files added (on-disk size: 33.7 Kb)
+0004.515 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 300 files added (on-disk size: 33.7 Kb)
+0004.577 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 400 files added (on-disk size: 33.7 Kb)
+0004.623 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 500 files added (on-disk size: 33.7 Kb)
+0004.684 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.2 Mb, 1930 files batched, 501 (502) added so far); re-opening (prior size: 33.7 Kb)
+0014.556 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 600 files added (on-disk size: 2725.6 Kb)
+0014.720 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 700 files added (on-disk size: 2725.6 Kb)
+0014.780 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 800 files added (on-disk size: 2725.6 Kb)
+0014.826 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 900 files added (on-disk size: 2725.6 Kb)
+0014.869 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1000 files added (on-disk size: 2725.6 Kb)
+0014.892 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.4 Mb, 1930 files batched, 501 (1003) added so far); re-opening (prior size: 2725.6 Kb)
+0042.435 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1100 files added (on-disk size: 5627.6 Kb)
+0042.494 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1200 files added (on-disk size: 5627.6 Kb)
+0042.578 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1300 files added (on-disk size: 5627.6 Kb)
+0042.650 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1400 files added (on-disk size: 5627.6 Kb)
+0042.702 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1500 files added (on-disk size: 5627.6 Kb)
+0042.720 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.9 Mb, 1930 files batched, 501 (1504) added so far); re-opening (prior size: 5627.6 Kb)
+0048.267 (0) [Warning] A zip error occurred - check your log for more details.
+0048.303 (0) The attempt to close the zip file returned an error (Unknown: ZipArchive does not return error messages). List of files we were trying to add follows (check their permissions).
+0048.323 (0) File: plugins/wordfence/lib/email_unlockRequest.php (exists: 1, is_readable: 1 size: 1464)
+0048.350 (0) File: plugins/wordfence/lib/wfCache.php (exists: 1, is_readable: 1 size: 24688)
+0048.394 (0) File: plugins/wordfence/lib/menu_rangeBlocking.php (exists: 1, is_readable: 1 size: 5230)
+0048.417 (0) File: plugins/wordfence/lib/conntest.php (exists: 1, is_readable: 1 size: 3623)
+0048.435 (0) File: plugins/wordfence/lib/wfDict.php (exists: 1, is_readable: 1 size: 741)
+0048.455 (0) File: plugins/wordfence/lib/wfAPI.php (exists: 1, is_readable: 1 size: 7481)
+0048.475 (0) File: plugins/wordfence/lib/diffResult.php (exists: 1, is_readable: 1 size: 2107)
+0048.495 (0) File: plugins/wordfence/tmp/.htaccess (exists: 1, is_readable: 1 size: 15)
+0048.515 (0) File: plugins/wordfence/tmp/configCache.php (exists: 1, is_readable: 1 size: 454)
+0048.535 (0) File: plugins/wordfence/screenshot-5.png (exists: 1, is_readable: 1 size: 246197)
+0048.555 (0) File: plugins/wordfence/screenshot-2.png (exists: 1, is_readable: 1 size: 114932)
+0048.576 (0) File: plugins/wordfence/wordfence.php (exists: 1, is_readable: 1 size: 945)
+0048.612 (0) File: plugins/wordfence/screenshot-4.png (exists: 1, is_readable: 1 size: 56714)
+0048.630 (0) File: plugins/wordfence/screenshot-1.png (exists: 1, is_readable: 1 size: 91223)
+0048.650 (0) File: plugins/wordfence/readme.txt (exists: 1, is_readable: 1 size: 72348)
+0048.671 (0) File: plugins/wordfence/screenshot-3.png (exists: 1, is_readable: 1 size: 147681)
+0048.690 (0) File: plugins/wordfence/index.php (exists: 1, is_readable: 1 size: 31)
+0048.711 (0) File: plugins/updraftplus/images/dreamobjects_logo-horiz-2013.png (exists: 1, is_readable: 1 size: 3181)
+0048.731 (0) File: plugins/updraftplus/images/rackspacecloud-logo.png (exists: 1, is_readable: 1 size: 25925)
+0048.751 (0) File: plugins/updraftplus/images/bitcasa.png (exists: 1, is_readable: 1 size: 11442)
+0048.779 (0) File: plugins/updraftplus/images/copy.png (exists: 1, is_readable: 1 size: 31608)
+0048.799 (0) File: plugins/updraftplus/images/dropbox-logo.png (exists: 1, is_readable: 1 size: 4672)
+0048.819 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Consumer/WordPress.php (exists: 1, is_readable: 1 size: 2892)
+0048.839 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php (exists: 1, is_readable: 1 size: 8047)
+0048.859 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Consumer/ConsumerAbstract.php (exists: 1, is_readable: 1 size: 11420)
+0048.879 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Storage/WordPress.php (exists: 1, is_readable: 1 size: 4088)
+0048.917 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Storage/StorageInterface.php (exists: 1, is_readable: 1 size: 644)
+0048.940 (0) File: plugins/updraftplus/includes/Dropbox/OAuth/Storage/Encrypter.php (exists: 1, is_readable: 1 size: 3317)
+0048.974 (0) File: plugins/updraftplus/includes/Dropbox/Exception.php (exists: 1, is_readable: 1 size: 557)
+0049.006 (0) File: plugins/updraftplus/includes/Dropbox/API.php (exists: 1, is_readable: 1 size: 22739)
+0049.038 (0) File: plugins/updraftplus/includes/Google/Auth/Exception.php (exists: 1, is_readable: 1 size: 697)
+0049.075 (0) File: plugins/updraftplus/includes/Google/Auth/LoginTicket.php (exists: 1, is_readable: 1 size: 1873)
+0049.111 (0) File: plugins/updraftplus/includes/Google/Auth/AssertionCredentials.php (exists: 1, is_readable: 1 size: 3745)
+0049.131 (0) File: plugins/updraftplus/includes/Google/Auth/OAuth2.php (exists: 1, is_readable: 1 size: 17506)
+0049.151 (0) File: plugins/updraftplus/includes/Google/Auth/Simple.php (exists: 1, is_readable: 1 size: 2422)
+0049.188 (0) File: plugins/updraftplus/includes/Google/Auth/Abstract.php (exists: 1, is_readable: 1 size: 1416)
+0049.227 (0) File: plugins/updraftplus/includes/Google/Cache/Exception.php (exists: 1, is_readable: 1 size: 697)
+0049.263 (0) File: plugins/updraftplus/includes/Google/Cache/Memcache.php (exists: 1, is_readable: 1 size: 3723)
+0049.283 (0) File: plugins/updraftplus/includes/Google/Cache/Apc.php (exists: 1, is_readable: 1 size: 1915)
+0049.303 (0) File: plugins/updraftplus/includes/Google/Cache/File.php (exists: 1, is_readable: 1 size: 3963)
+0049.324 (0) File: plugins/updraftplus/includes/Google/Cache/Null.php (exists: 1, is_readable: 1 size: 1183)
+0049.344 (0) File: plugins/updraftplus/includes/Google/Cache/Abstract.php (exists: 1, is_readable: 1 size: 1453)
+0049.364 (0) File: plugins/updraftplus/includes/Google/Http/MediaFileUpload.php (exists: 1, is_readable: 1 size: 7866)
+0049.385 (0) File: plugins/updraftplus/includes/Google/Http/REST.php (exists: 1, is_readable: 1 size: 4628)
+0049.406 (0) File: plugins/updraftplus/includes/Google/Http/Batch.php (exists: 1, is_readable: 1 size: 4285)
+0049.426 (0) File: plugins/updraftplus/includes/Google/Http/Request.php (exists: 1, is_readable: 1 size: 11524)
+0049.446 (0) File: plugins/updraftplus/includes/Google/Http/CacheParser.php (exists: 1, is_readable: 1 size: 6170)
+0049.465 (0) File: plugins/updraftplus/includes/Google/IO/Exception.php (exists: 1, is_readable: 1 size: 695)
+0049.528 (0) File: plugins/updraftplus/includes/Google/IO/Curl.php (exists: 1, is_readable: 1 size: 4103)
+0049.548 (0) File: plugins/updraftplus/includes/Google/IO/Stream.php (exists: 1, is_readable: 1 size: 5413)
+0049.569 (0) File: plugins/updraftplus/includes/Google/IO/Abstract.php (exists: 1, is_readable: 1 size: 9899)
+0049.592 (0) File: plugins/updraftplus/includes/Google/Service/Exception.php (exists: 1, is_readable: 1 size: 1235)
+0049.614 (0) File: plugins/updraftplus/includes/Google/Service/Resource.php (exists: 1, is_readable: 1 size: 7250)
+0049.634 (0) File: plugins/updraftplus/includes/Google/Service/Drive.php (exists: 1, is_readable: 1 size: 139987)
+0049.658 (0) File: plugins/updraftplus/includes/Google/Signer/P12.php (exists: 1, is_readable: 1 size: 2900)
+0049.678 (0) File: plugins/updraftplus/includes/Google/Signer/Abstract.php (exists: 1, is_readable: 1 size: 820)
+0049.699 (0) File: plugins/updraftplus/includes/Google/Utils/URITemplate.php (exists: 1, is_readable: 1 size: 9475)
+0049.719 (0) File: plugins/updraftplus/includes/Google/Verifier/Pem.php (exists: 1, is_readable: 1 size: 2060)
+0049.739 (0) File: plugins/updraftplus/includes/Google/Verifier/Abstract.php (exists: 1, is_readable: 1 size: 879)
+0049.759 (0) File: plugins/updraftplus/includes/Google/Exception.php (exists: 1, is_readable: 1 size: 647)
+0049.786 (0) File: plugins/updraftplus/includes/Google/Client.php (exists: 1, is_readable: 1 size: 17178)
+0049.820 (0) File: plugins/updraftplus/includes/Google/Utils.php (exists: 1, is_readable: 1 size: 3993)
+0049.870 (0) File: plugins/updraftplus/includes/Google/Collection.php (exists: 1, is_readable: 1 size: 2257)
+0049.890 (0) File: plugins/updraftplus/includes/Google/Model.php (exists: 1, is_readable: 1 size: 6608)
+0049.963 (0) File: plugins/updraftplus/includes/Google/Service.php (exists: 1, is_readable: 1 size: 978)
+0050.052 (0) File: plugins/updraftplus/includes/Google/Config.php (exists: 1, is_readable: 1 size: 9343)
+0050.097 (0) File: plugins/updraftplus/includes/cloudfiles/cloudfiles_exceptions.php (exists: 1, is_readable: 1 size: 1868)
+0050.117 (0) File: plugins/updraftplus/includes/cloudfiles/cloudfiles.php (exists: 1, is_readable: 1 size: 93077)
+0050.137 (0) File: plugins/updraftplus/includes/cloudfiles/cloudfiles_http.php (exists: 1, is_readable: 1 size: 56025)
+0050.166 (0) File: plugins/updraftplus/includes/images/ui-icons_222222_256x240.png (exists: 1, is_readable: 1 size: 4369)
+0050.215 (0) File: plugins/updraftplus/includes/images/ui-bg_glass_100_fdf5ce_1x400.png (exists: 1, is_readable: 1 size: 125)
+0050.235 (0) File: plugins/updraftplus/includes/images/ui-bg_diagonals-thick_20_666666_40x40.png (exists: 1, is_readable: 1 size: 251)
+0050.252 (0) File: plugins/updraftplus/includes/images/ui-bg_highlight-soft_75_ffe45c_1x100.png (exists: 1, is_readable: 1 size: 129)
+0050.268 (0) File: plugins/updraftplus/includes/images/ui-icons_ef8c08_256x240.png (exists: 1, is_readable: 1 size: 4369)
+0050.284 (0) File: plugins/updraftplus/includes/images/ui-bg_diagonals-thick_18_b81900_40x40.png (exists: 1, is_readable: 1 size: 260)
+0050.300 (0) File: plugins/updraftplus/includes/images/ui-bg_highlight-soft_100_eeeeee_1x100.png (exists: 1, is_readable: 1 size: 90)
+0050.321 (0) File: plugins/updraftplus/includes/images/ui-bg_gloss-wave_35_f6a828_500x100.png (exists: 1, is_readable: 1 size: 3762)
+0050.345 (0) File: plugins/updraftplus/includes/images/ui-icons_ffd27a_256x240.png (exists: 1, is_readable: 1 size: 4369)
+0050.366 (0) File: plugins/updraftplus/includes/images/ui-icons_ffffff_256x240.png (exists: 1, is_readable: 1 size: 4369)
+0050.387 (0) File: plugins/updraftplus/includes/images/ui-icons_228ef1_256x240.png (exists: 1, is_readable: 1 size: 4369)
+0050.411 (0) File: plugins/updraftplus/includes/images/ui-bg_flat_10_000000_40x100.png (exists: 1, is_readable: 1 size: 178)
+0050.474 (0) File: plugins/updraftplus/includes/images/ui-bg_glass_100_f6f6f6_1x400.png (exists: 1, is_readable: 1 size: 104)
+0050.500 (0) File: plugins/updraftplus/includes/images/ui-bg_glass_65_ffffff_1x400.png (exists: 1, is_readable: 1 size: 105)
+0050.524 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Blowfish.php (exists: 1, is_readable: 1 size: 29287)
+0050.545 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/DES.php (exists: 1, is_readable: 1 size: 74179)
+0050.565 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Random.php (exists: 1, is_readable: 1 size: 11012)
+0050.585 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Base.php (exists: 1, is_readable: 1 size: 76221)
+0050.617 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/TripleDES.php (exists: 1, is_readable: 1 size: 13372)
+0050.643 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/RC2.php (exists: 1, is_readable: 1 size: 22158)
+0050.661 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Twofish.php (exists: 1, is_readable: 1 size: 40814)
+0050.682 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/RC4.php (exists: 1, is_readable: 1 size: 9175)
+0050.702 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/AES.php (exists: 1, is_readable: 1 size: 5701)
+0050.727 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Rijndael.php (exists: 1, is_readable: 1 size: 67318)
+0050.743 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/Hash.php (exists: 1, is_readable: 1 size: 28466)
+0050.760 (0) File: plugins/updraftplus/includes/phpseclib/Crypt/RSA.php (exists: 1, is_readable: 1 size: 91696)
+0050.780 (0) File: plugins/updraftplus/includes/phpseclib/File/ASN1.php (exists: 1, is_readable: 1 size: 51077)
+0050.820 (0) File: plugins/updraftplus/includes/phpseclib/File/ANSI.php (exists: 1, is_readable: 1 size: 19582)
+0050.836 (0) File: plugins/updraftplus/includes/phpseclib/File/X509.php (exists: 1, is_readable: 1 size: 161985)
+0050.857 (0) File: plugins/updraftplus/includes/phpseclib/Math/BigInteger.php (exists: 1, is_readable: 1 size: 125426)
+0050.877 (0) File: plugins/updraftplus/includes/phpseclib/Net/SFTP/Stream.php (exists: 1, is_readable: 1 size: 21697)
+0050.897 (0) File: plugins/updraftplus/includes/phpseclib/Net/SFTP.php (exists: 1, is_readable: 1 size: 73337)
+0050.917 (0) File: plugins/updraftplus/includes/phpseclib/Net/SSH2.php (exists: 1, is_readable: 1 size: 127377)
+0050.937 (0) File: plugins/updraftplus/includes/phpseclib/Net/SSH1.php (exists: 1, is_readable: 1 size: 52203)
+0050.957 (0) File: plugins/updraftplus/includes/phpseclib/Net/SCP.php (exists: 1, is_readable: 1 size: 9976)
+0050.978 (0) File: plugins/updraftplus/includes/phpseclib/openssl.cnf (exists: 1, is_readable: 1 size: 103)
+0050.997 (0) File: plugins/updraftplus/includes/get-cpanel-quota-usage.pl (exists: 1, is_readable: 1 size: 408)
+0051.018 (0) File: plugins/updraftplus/includes/cacert.pem (exists: 1, is_readable: 1 size: 250283)
+0051.034 (0) File: plugins/updraftplus/includes/ftp.class.php (exists: 1, is_readable: 1 size: 6010)
+0051.050 (0) File: plugins/updraftplus/includes/updraft-admin-ui.js (exists: 1, is_readable: 1 size: 33066)
+0051.067 (0) File: plugins/updraftplus/includes/jquery-ui-1.8.22.custom.css (exists: 1, is_readable: 1 size: 33350)
+0051.083 (0) File: plugins/updraftplus/includes/class-semaphore.php (exists: 1, is_readable: 1 size: 4671)
+0051.099 (0) File: plugins/updraftplus/includes/S3.php (exists: 1, is_readable: 1 size: 76153)
+0051.116 (0) File: plugins/updraftplus/languages/updraftplus-nl_NL.po (exists: 1, is_readable: 1 size: 172659)
+0051.132 (0) File: plugins/updraftplus/languages/updraftplus-el.po (exists: 1, is_readable: 1 size: 249695)
+0051.148 (0) File: plugins/updraftplus/languages/updraftplus-sv_SE.mo (exists: 1, is_readable: 1 size: 139194)
+0051.164 (0) File: plugins/updraftplus/languages/updraftplus-el.mo (exists: 1, is_readable: 1 size: 214650)
+0051.180 (0) File: plugins/updraftplus/languages/updraftplus-nl_NL.mo (exists: 1, is_readable: 1 size: 137629)
+0051.196 (0) File: plugins/updraftplus/languages/updraftplus-zh_CN.po (exists: 1, is_readable: 1 size: 104943)
+0051.212 (0) File: plugins/updraftplus/languages/updraftplus-es_ES.po (exists: 1, is_readable: 1 size: 178223)
+0051.233 (0) File: plugins/updraftplus/languages/updraftplus-ar.po (exists: 1, is_readable: 1 size: 190455)
+0051.253 (0) File: plugins/updraftplus/languages/updraftplus-de_DE.mo (exists: 1, is_readable: 1 size: 136097)
+0051.274 (0) File: plugins/updraftplus/languages/updraftplus-cs_CZ.mo (exists: 1, is_readable: 1 size: 138575)
+0051.294 (0) File: plugins/updraftplus/languages/updraftplus-pt_BR.mo (exists: 1, is_readable: 1 size: 143194)
+0051.314 (0) File: plugins/updraftplus/languages/updraftplus-zh_CN.mo (exists: 1, is_readable: 1 size: 78587)
+0051.330 (0) File: plugins/updraftplus/languages/updraftplus-hu_HU.po (exists: 1, is_readable: 1 size: 64580)
+0051.346 (0) File: plugins/updraftplus/languages/updraftplus-ja.mo (exists: 1, is_readable: 1 size: 36307)
+0051.363 (0) File: plugins/updraftplus/languages/updraftplus-cs_CZ.po (exists: 1, is_readable: 1 size: 172635)
+0051.396 (0) File: plugins/updraftplus/languages/updraftplus-it_IT.po (exists: 1, is_readable: 1 size: 153965)
+0051.415 (0) File: plugins/updraftplus/languages/updraftplus-de_DE.po (exists: 1, is_readable: 1 size: 173836)
+0051.431 (0) File: plugins/updraftplus/languages/updraftplus-ru_RU.mo (exists: 1, is_readable: 1 size: 199480)
+0051.447 (0) File: plugins/updraftplus/languages/updraftplus-es_ES.mo (exists: 1, is_readable: 1 size: 143162)
+0051.463 (0) File: plugins/updraftplus/languages/updraftplus-fr_FR.po (exists: 1, is_readable: 1 size: 152488)
+0051.480 (0) File: plugins/updraftplus/languages/updraftplus-hu_HU.mo (exists: 1, is_readable: 1 size: 54006)
+0051.501 (0) File: plugins/updraftplus/languages/updraftplus-pl_PL.po (exists: 1, is_readable: 1 size: 134991)
+0051.521 (0) File: plugins/updraftplus/languages/updraftplus-pt_BR.po (exists: 1, is_readable: 1 size: 178257)
+0051.541 (0) File: plugins/updraftplus/languages/updraftplus-tr_TR.po (exists: 1, is_readable: 1 size: 143191)
+0051.561 (0) File: plugins/updraftplus/languages/updraftplus-sv_SE.po (exists: 1, is_readable: 1 size: 174235)
+0051.581 (0) File: plugins/updraftplus/languages/updraftplus-ja.po (exists: 1, is_readable: 1 size: 89469)
+0051.601 (0) File: plugins/updraftplus/languages/updraftplus-tr_TR.mo (exists: 1, is_readable: 1 size: 73460)
+0051.621 (0) File: plugins/updraftplus/languages/updraftplus-it_IT.mo (exists: 1, is_readable: 1 size: 107165)
+0051.641 (0) File: plugins/updraftplus/languages/updraftplus.pot (exists: 1, is_readable: 1 size: 116383)
+0051.658 (0) File: plugins/updraftplus/languages/updraftplus-pl_PL.mo (exists: 1, is_readable: 1 size: 114800)
+0051.674 (0) File: plugins/updraftplus/languages/updraftplus-ru_RU.po (exists: 1, is_readable: 1 size: 233627)
+0051.690 (0) File: plugins/updraftplus/languages/updraftplus-fr_FR.mo (exists: 1, is_readable: 1 size: 87042)
+0051.722 (0) File: plugins/updraftplus/languages/updraftplus-ar.mo (exists: 1, is_readable: 1 size: 160525)
+0051.756 (0) File: plugins/updraftplus/methods/openstack-base.php (exists: 1, is_readable: 1 size: 18317)
+0051.775 (0) File: plugins/updraftplus/methods/googledrive.php (exists: 1, is_readable: 1 size: 36332)
+0051.792 (0) File: plugins/updraftplus/methods/insufficient.php (exists: 1, is_readable: 1 size: 2576)
+0051.811 (0) File: plugins/updraftplus/methods/openstack.php (exists: 1, is_readable: 1 size: 557)
+0051.827 (0) File: plugins/updraftplus/methods/dreamobjects.php (exists: 1, is_readable: 1 size: 2294)
+0051.843 (0) File: plugins/updraftplus/methods/s3.php (exists: 1, is_readable: 1 size: 27566)
+0051.860 (0) File: plugins/updraftplus/methods/cloudfiles-new.php (exists: 1, is_readable: 1 size: 7519)
+0051.876 (0) File: plugins/updraftplus/methods/template.php (exists: 1, is_readable: 1 size: 3267)
+0051.892 (0) File: plugins/updraftplus/methods/viaaddon-base.php (exists: 1, is_readable: 1 size: 4120)
+0051.908 (0) File: plugins/updraftplus/methods/bitcasa.php (exists: 1, is_readable: 1 size: 648)
+0051.929 (0) File: plugins/updraftplus/methods/sftp.php (exists: 1, is_readable: 1 size: 297)
+0051.949 (0) File: plugins/updraftplus/methods/cloudfiles.php (exists: 1, is_readable: 1 size: 24489)
+0051.969 (0) File: plugins/updraftplus/methods/webdav.php (exists: 1, is_readable: 1 size: 299)
+0051.989 (0) File: plugins/updraftplus/methods/s3generic.php (exists: 1, is_readable: 1 size: 2275)
+0052.009 (0) File: plugins/updraftplus/methods/email.php (exists: 1, is_readable: 1 size: 2773)
+0052.030 (0) File: plugins/updraftplus/methods/dropbox.php (exists: 1, is_readable: 1 size: 20869)
+0052.050 (0) File: plugins/updraftplus/methods/openstack2.php (exists: 1, is_readable: 1 size: 7164)
+0052.066 (0) File: plugins/updraftplus/methods/ftp.php (exists: 1, is_readable: 1 size: 14559)
+0052.082 (0) File: plugins/updraftplus/oc/composer/autoload_classmap.php (exists: 1, is_readable: 1 size: 147)
+0052.098 (0) File: plugins/updraftplus/oc/composer/autoload_namespaces.php (exists: 1, is_readable: 1 size: 520)
+0052.122 (0) File: plugins/updraftplus/oc/composer/installed.json (exists: 1, is_readable: 1 size: 9635)
+0052.138 (0) File: plugins/updraftplus/oc/composer/autoload_real.php (exists: 1, is_readable: 1 size: 1227)
+0052.155 (0) File: plugins/updraftplus/oc/composer/ClassLoader.php (exists: 1, is_readable: 1 size: 6927)
+0052.172 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/RuntimeException.php (exists: 1, is_readable: 1 size: 122)
+0052.192 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/GuzzleException.php (exists: 1, is_readable: 1 size: 100)
+0052.212 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/UnexpectedValueException.php (exists: 1, is_readable: 1 size: 138)
+0052.232 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/InvalidArgumentException.php (exists: 1, is_readable: 1 size: 138)
+0052.252 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/ExceptionCollection.php (exists: 1, is_readable: 1 size: 1926)
+0052.272 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Exception/BadMethodCallException.php (exists: 1, is_readable: 1 size: 134)
+0052.292 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/ToArrayInterface.php (exists: 1, is_readable: 1 size: 245)
+0052.312 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Version.php (exists: 1, is_readable: 1 size: 641)
+0052.333 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Event.php (exists: 1, is_readable: 1 size: 1064)
+0052.365 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/Collection.php (exists: 1, is_readable: 1 size: 11534)
+0052.385 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/composer.json (exists: 1, is_readable: 1 size: 503)
+0052.406 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/FromConfigInterface.php (exists: 1, is_readable: 1 size: 487)
+0052.422 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/HasDispatcherInterface.php (exists: 1, is_readable: 1 size: 1358)
+0052.439 (0) File: plugins/updraftplus/oc/guzzle/common/Guzzle/Common/AbstractHasDispatcher.php (exists: 1, is_readable: 1 size: 1195)
+0052.455 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/CurlMultiProxy.php (exists: 1, is_readable: 1 size: 4167)
+0052.472 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/RequestMediator.php (exists: 1, is_readable: 1 size: 4445)
+0052.492 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/CurlHandle.php (exists: 1, is_readable: 1 size: 15350)
+0052.512 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/CurlMultiInterface.php (exists: 1, is_readable: 1 size: 1597)
+0052.532 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/CurlMulti.php (exists: 1, is_readable: 1 size: 12723)
+0052.553 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Curl/CurlVersion.php (exists: 1, is_readable: 1 size: 1719)
+0052.573 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/TooManyRedirectsException.php (exists: 1, is_readable: 1 size: 105)
+0052.593 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/RequestException.php (exists: 1, is_readable: 1 size: 774)
+0052.617 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/ClientErrorResponseException.php (exists: 1, is_readable: 1 size: 176)
+0052.638 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/CouldNotRewindStreamException.php (exists: 1, is_readable: 1 size: 177)
+0052.654 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/MultiTransferException.php (exists: 1, is_readable: 1 size: 3459)
+0052.670 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/BadResponseException.php (exists: 1, is_readable: 1 size: 1873)
+0052.686 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/HttpException.php (exists: 1, is_readable: 1 size: 174)
+0052.703 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/ServerErrorResponseException.php (exists: 1, is_readable: 1 size: 176)
+0052.722 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Exception/CurlException.php (exists: 1, is_readable: 1 size: 1859)
+0052.739 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/CacheControl.php (exists: 1, is_readable: 1 size: 2806)
+0052.755 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/HeaderInterface.php (exists: 1, is_readable: 1 size: 1872)
+0052.771 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/HeaderFactoryInterface.php (exists: 1, is_readable: 1 size: 419)
+0052.787 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/HeaderFactory.php (exists: 1, is_readable: 1 size: 646)
+0052.803 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/Link.php (exists: 1, is_readable: 1 size: 2021)
+0052.819 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header/HeaderCollection.php (exists: 1, is_readable: 1 size: 2110)
+0052.839 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/RequestInterface.php (exists: 1, is_readable: 1 size: 8503)
+0052.860 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/PostFile.php (exists: 1, is_readable: 1 size: 2643)
+0052.880 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Response.php (exists: 1, is_readable: 1 size: 26060)
+0052.900 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequestInterface.php (exists: 1, is_readable: 1 size: 4221)
+0052.921 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Header.php (exists: 1, is_readable: 1 size: 4242)
+0052.941 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/Request.php (exists: 1, is_readable: 1 size: 19332)
+0052.961 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/AbstractMessage.php (exists: 1, is_readable: 1 size: 5667)
+0052.981 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/PostFileInterface.php (exists: 1, is_readable: 1 size: 1233)
+0053.001 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/RequestFactoryInterface.php (exists: 1, is_readable: 1 size: 5496)
+0053.021 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/MessageInterface.php (exists: 1, is_readable: 1 size: 2320)
+0053.044 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/RequestFactory.php (exists: 1, is_readable: 1 size: 12938)
+0053.065 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Message/EntityEnclosingRequest.php (exists: 1, is_readable: 1 size: 7595)
+0053.085 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/QueryAggregator/QueryAggregatorInterface.php (exists: 1, is_readable: 1 size: 670)
+0053.105 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/QueryAggregator/DuplicateAggregator.php (exists: 1, is_readable: 1 size: 572)
+0053.129 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/QueryAggregator/CommaAggregator.php (exists: 1, is_readable: 1 size: 520)
+0053.146 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/QueryAggregator/PhpAggregator.php (exists: 1, is_readable: 1 size: 628)
+0053.162 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Resources/cacert.pem (exists: 1, is_readable: 1 size: 229043)
+0053.179 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Resources/cacert.pem.md5 (exists: 1, is_readable: 1 size: 33)
+0053.195 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Client.php (exists: 1, is_readable: 1 size: 16657)
+0053.211 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/IoEmittingEntityBody.php (exists: 1, is_readable: 1 size: 2032)
+0053.227 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/composer.json (exists: 1, is_readable: 1 size: 808)
+0053.243 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/ReadLimitEntityBody.php (exists: 1, is_readable: 1 size: 2942)
+0053.268 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/CachingEntityBody.php (exists: 1, is_readable: 1 size: 6266)
+0053.296 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/QueryString.php (exists: 1, is_readable: 1 size: 7885)
+0053.322 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/ClientInterface.php (exists: 1, is_readable: 1 size: 9921)
+0053.342 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/EntityBodyInterface.php (exists: 1, is_readable: 1 size: 2419)
+0053.375 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/EntityBody.php (exists: 1, is_readable: 1 size: 6018)
+0053.395 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/AbstractEntityBodyDecorator.php (exists: 1, is_readable: 1 size: 4283)
+0053.415 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Url.php (exists: 1, is_readable: 1 size: 13326)
+0053.431 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/RedirectPlugin.php (exists: 1, is_readable: 1 size: 9997)
+0053.447 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/StaticClient.php (exists: 1, is_readable: 1 size: 4647)
+0053.467 (0) File: plugins/updraftplus/oc/guzzle/http/Guzzle/Http/Mimetypes.php (exists: 1, is_readable: 1 size: 42121)
+0053.487 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Cookie/CookieParser.php (exists: 1, is_readable: 1 size: 3047)
+0053.520 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Cookie/CookieParserInterface.php (exists: 1, is_readable: 1 size: 1484)
+0053.603 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Message/MessageParserInterface.php (exists: 1, is_readable: 1 size: 695)
+0053.654 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Message/AbstractMessageParser.php (exists: 1, is_readable: 1 size: 1676)
+0053.674 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Message/MessageParser.php (exists: 1, is_readable: 1 size: 3332)
+0053.692 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Message/PeclHttpMessageParser.php (exists: 1, is_readable: 1 size: 1198)
+0053.712 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplate.php (exists: 1, is_readable: 1 size: 7983)
+0053.732 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/UriTemplate/UriTemplateInterface.php (exists: 1, is_readable: 1 size: 510)
+0053.752 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/UriTemplate/PeclUriTemplate.php (exists: 1, is_readable: 1 size: 692)
+0053.772 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Url/UrlParserInterface.php (exists: 1, is_readable: 1 size: 532)
+0053.792 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/Url/UrlParser.php (exists: 1, is_readable: 1 size: 1428)
+0053.825 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/composer.json (exists: 1, is_readable: 1 size: 471)
+0053.860 (0) File: plugins/updraftplus/oc/guzzle/parser/Guzzle/Parser/ParserRegistry.php (exists: 1, is_readable: 1 size: 1949)
+0053.879 (0) File: plugins/updraftplus/oc/guzzle/stream/Guzzle/Stream/composer.json (exists: 1, is_readable: 1 size: 766)
+0053.900 (0) File: plugins/updraftplus/oc/guzzle/stream/Guzzle/Stream/StreamInterface.php (exists: 1, is_readable: 1 size: 4664)
+0053.920 (0) File: plugins/updraftplus/oc/guzzle/stream/Guzzle/Stream/StreamRequestFactoryInterface.php (exists: 1, is_readable: 1 size: 859)
+0053.940 (0) File: plugins/updraftplus/oc/guzzle/stream/Guzzle/Stream/Stream.php (exists: 1, is_readable: 1 size: 7450)
+0053.960 (0) File: plugins/updraftplus/oc/guzzle/stream/Guzzle/Stream/PhpStreamRequestFactory.php (exists: 1, is_readable: 1 size: 9208)
+0053.981 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Collection/ResourceIterator.php (exists: 1, is_readable: 1 size: 5821)
+0054.002 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Collection/ArrayCollection.php (exists: 1, is_readable: 1 size: 2392)
+0054.026 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Collection/PaginatedIterator.php (exists: 1, is_readable: 1 size: 8194)
+0054.059 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/Mime.php (exists: 1, is_readable: 1 size: 361)
+0054.080 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/State.php (exists: 1, is_readable: 1 size: 477)
+0054.109 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/Header.php (exists: 1, is_readable: 1 size: 2629)
+0054.141 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/Service.php (exists: 1, is_readable: 1 size: 432)
+0054.158 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/Size.php (exists: 1, is_readable: 1 size: 381)
+0054.177 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Constants/Datetime.php (exists: 1, is_readable: 1 size: 683)
+0054.197 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerActionError.php (exists: 1, is_readable: 1 size: 93)
+0054.216 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DatabaseDeleteError.php (exists: 1, is_readable: 1 size: 95)
+0054.236 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerCreateError.php (exists: 1, is_readable: 1 size: 96)
+0054.256 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NoNameError.php (exists: 1, is_readable: 1 size: 87)
+0054.277 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnknownParameterError.php (exists: 1, is_readable: 1 size: 97)
+0054.296 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/BaseException.php (exists: 1, is_readable: 1 size: 89)
+0054.314 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/LoggingException.php (exists: 1, is_readable: 1 size: 360)
+0054.333 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CreateUpdateError.php (exists: 1, is_readable: 1 size: 93)
+0054.353 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpRetryError.php (exists: 1, is_readable: 1 size: 90)
+0054.372 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataDeleteError.php (exists: 1, is_readable: 1 size: 95)
+0054.391 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerCreateError.php (exists: 1, is_readable: 1 size: 93)
+0054.409 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CredentialError.php (exists: 1, is_readable: 1 size: 91)
+0054.429 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataJsonError.php (exists: 1, is_readable: 1 size: 93)
+0054.448 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnsupportedExtensionError.php (exists: 1, is_readable: 1 size: 101)
+0054.468 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/EndpointError.php (exists: 1, is_readable: 1 size: 89)
+0054.489 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidArgumentError.php (exists: 1, is_readable: 1 size: 96)
+0054.508 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UserListError.php (exists: 1, is_readable: 1 size: 89)
+0054.526 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MisMatchedChecksumError.php (exists: 1, is_readable: 1 size: 99)
+0054.545 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceDeleteError.php (exists: 1, is_readable: 1 size: 95)
+0054.565 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ResourceBucketException.php (exists: 1, is_readable: 1 size: 332)
+0054.586 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerUrlError.php (exists: 1, is_readable: 1 size: 90)
+0054.605 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NetworkUpdateError.php (exists: 1, is_readable: 1 size: 94)
+0054.625 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnsupportedVersionError.php (exists: 1, is_readable: 1 size: 99)
+0054.645 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/AsyncError.php (exists: 1, is_readable: 1 size: 86)
+0054.664 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DatabaseUpdateError.php (exists: 1, is_readable: 1 size: 95)
+0054.685 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerIpsError.php (exists: 1, is_readable: 1 size: 90)
+0054.705 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/RuntimeException.php (exists: 1, is_readable: 1 size: 91)
+0054.725 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/AuthenticationError.php (exists: 1, is_readable: 1 size: 95)
+0054.745 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataPrefixError.php (exists: 1, is_readable: 1 size: 95)
+0054.765 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/JsonError.php (exists: 1, is_readable: 1 size: 85)
+0054.785 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CreateError.php (exists: 1, is_readable: 1 size: 87)
+0054.804 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerError.php (exists: 1, is_readable: 1 size: 90)
+0054.822 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerNotFoundError.php (exists: 1, is_readable: 1 size: 98)
+0054.841 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidIdTypeError.php (exists: 1, is_readable: 1 size: 94)
+0054.859 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DocumentError.php (exists: 1, is_readable: 1 size: 89)
+0054.885 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerUpdateError.php (exists: 1, is_readable: 1 size: 93)
+0054.906 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DeleteError.php (exists: 1, is_readable: 1 size: 87)
+0055.070 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DomainError.php (exists: 1, is_readable: 1 size: 87)
+0055.093 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerJsonError.php (exists: 1, is_readable: 1 size: 91)
+0055.111 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/VolumeError.php (exists: 1, is_readable: 1 size: 87)
+0055.134 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UrlError.php (exists: 1, is_readable: 1 size: 84)
+0055.156 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/EmptyResponseError.php (exists: 1, is_readable: 1 size: 94)
+0055.216 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CdnHttpError.php (exists: 1, is_readable: 1 size: 88)
+0055.245 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerImageScheduleError.php (exists: 1, is_readable: 1 size: 100)
+0055.264 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceNotFound.php (exists: 1, is_readable: 1 size: 92)
+0055.282 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceError.php (exists: 1, is_readable: 1 size: 89)
+0055.302 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MissingValueError.php (exists: 1, is_readable: 1 size: 93)
+0055.322 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CollectionException.php (exists: 1, is_readable: 1 size: 94)
+0055.343 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidParameterError.php (exists: 1, is_readable: 1 size: 97)
+0055.363 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NetworkCreateError.php (exists: 1, is_readable: 1 size: 94)
+0055.382 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NetworkDeleteError.php (exists: 1, is_readable: 1 size: 94)
+0055.403 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/AsyncHttpError.php (exists: 1, is_readable: 1 size: 90)
+0055.421 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpTimeoutError.php (exists: 1, is_readable: 1 size: 92)
+0055.440 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpUrlError.php (exists: 1, is_readable: 1 size: 88)
+0055.461 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/AsyncTimeoutError.php (exists: 1, is_readable: 1 size: 93)
+0055.481 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NameError.php (exists: 1, is_readable: 1 size: 85)
+0055.500 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NetworkUrlError.php (exists: 1, is_readable: 1 size: 91)
+0055.518 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/IdRequiredError.php (exists: 1, is_readable: 1 size: 91)
+0055.539 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceUpdateError.php (exists: 1, is_readable: 1 size: 95)
+0055.559 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnsupportedFeatureExtension.php (exists: 1, is_readable: 1 size: 103)
+0055.578 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ObjectError.php (exists: 1, is_readable: 1 size: 87)
+0055.596 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerNameError.php (exists: 1, is_readable: 1 size: 94)
+0055.617 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidRequestError.php (exists: 1, is_readable: 1 size: 95)
+0055.637 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/TempUrlMethodError.php (exists: 1, is_readable: 1 size: 94)
+0055.655 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/RecordTypeError.php (exists: 1, is_readable: 1 size: 91)
+0055.674 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CdnTtlError.php (exists: 1, is_readable: 1 size: 87)
+0055.695 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CdnError.php (exists: 1, is_readable: 1 size: 84)
+0055.715 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnknownError.php (exists: 1, is_readable: 1 size: 88)
+0055.733 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerNotEmptyError.php (exists: 1, is_readable: 1 size: 98)
+0055.753 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UpdateError.php (exists: 1, is_readable: 1 size: 87)
+0055.773 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServerDeleteError.php (exists: 1, is_readable: 1 size: 93)
+0055.793 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DatabaseListError.php (exists: 1, is_readable: 1 size: 93)
+0055.811 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataKeyError.php (exists: 1, is_readable: 1 size: 92)
+0055.831 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DatabaseCreateError.php (exists: 1, is_readable: 1 size: 95)
+0055.852 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpForbiddenError.php (exists: 1, is_readable: 1 size: 94)
+0055.872 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpError.php (exists: 1, is_readable: 1 size: 85)
+0055.892 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceFlavorError.php (exists: 1, is_readable: 1 size: 95)
+0055.913 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/AttributeError.php (exists: 1, is_readable: 1 size: 90)
+0055.945 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ObjectCopyError.php (exists: 1, is_readable: 1 size: 91)
+0055.965 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ContainerDeleteError.php (exists: 1, is_readable: 1 size: 96)
+0055.985 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InstanceCreateError.php (exists: 1, is_readable: 1 size: 95)
+0056.003 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpOverLimitError.php (exists: 1, is_readable: 1 size: 94)
+0056.022 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UnrecognizedServiceError.php (exists: 1, is_readable: 1 size: 100)
+0056.042 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataCreateError.php (exists: 1, is_readable: 1 size: 95)
+0056.063 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ObjFetchError.php (exists: 1, is_readable: 1 size: 89)
+0056.080 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UserNameError.php (exists: 1, is_readable: 1 size: 89)
+0056.101 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/RebuildError.php (exists: 1, is_readable: 1 size: 88)
+0056.121 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NetworkError.php (exists: 1, is_readable: 1 size: 88)
+0056.141 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/HttpUnauthorizedError.php (exists: 1, is_readable: 1 size: 97)
+0056.163 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ImageError.php (exists: 1, is_readable: 1 size: 86)
+0056.183 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/SnapshotError.php (exists: 1, is_readable: 1 size: 89)
+0056.203 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/CdnNotAvailableError.php (exists: 1, is_readable: 1 size: 96)
+0056.224 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/NoContentTypeError.php (exists: 1, is_readable: 1 size: 94)
+0056.244 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataUpdateError.php (exists: 1, is_readable: 1 size: 95)
+0056.265 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/FlavorError.php (exists: 1, is_readable: 1 size: 87)
+0056.309 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/IOError.php (exists: 1, is_readable: 1 size: 83)
+0056.346 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UserUpdateError.php (exists: 1, is_readable: 1 size: 91)
+0056.367 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/MetadataError.php (exists: 1, is_readable: 1 size: 89)
+0056.387 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/ServiceException.php (exists: 1, is_readable: 1 size: 92)
+0056.407 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidIpTypeError.php (exists: 1, is_readable: 1 size: 94)
+0056.424 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/DatabaseNameError.php (exists: 1, is_readable: 1 size: 93)
+0056.444 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UserDeleteError.php (exists: 1, is_readable: 1 size: 91)
+0056.465 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/UserCreateError.php (exists: 1, is_readable: 1 size: 91)
+0056.486 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/VolumeTypeError.php (exists: 1, is_readable: 1 size: 91)
+0056.505 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Http/Message/Formatter.php (exists: 1, is_readable: 1 size: 1196)
+0056.526 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Http/Message/RequestSubscriber.php (exists: 1, is_readable: 1 size: 1461)
+0056.558 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Http/Client.php (exists: 1, is_readable: 1 size: 1404)
+0056.578 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Log/LogLevel.php (exists: 1, is_readable: 1 size: 1457)
+0056.598 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Log/LoggerInterface.php (exists: 1, is_readable: 1 size: 4110)
+0056.618 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Log/Logger.php (exists: 1, is_readable: 1 size: 5401)
+0056.638 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Log/AbstractLogger.php (exists: 1, is_readable: 1 size: 4168)
+0056.663 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/NovaService.php (exists: 1, is_readable: 1 size: 1642)
+0056.683 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/AbstractService.php (exists: 1, is_readable: 1 size: 5147)
+0056.704 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/Endpoint.php (exists: 1, is_readable: 1 size: 2388)
+0056.724 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/ServiceInterface.php (exists: 1, is_readable: 1 size: 310)
+0056.744 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/CatalogItem.php (exists: 1, is_readable: 1 size: 2970)
+0056.765 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/Catalog.php (exists: 1, is_readable: 1 size: 1562)
+0056.784 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/ServiceBuilder.php (exists: 1, is_readable: 1 size: 1369)
+0056.805 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Service/CatalogService.php (exists: 1, is_readable: 1 size: 6979)
+0056.849 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Collection.php (exists: 1, is_readable: 1 size: 10880)
+0056.890 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Metadata.php (exists: 1, is_readable: 1 size: 2771)
+0056.909 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Base.php (exists: 1, is_readable: 1 size: 13539)
+0056.930 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Lang.php (exists: 1, is_readable: 1 size: 572)
+0056.950 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/PersistentObject.php (exists: 1, is_readable: 1 size: 22058)
+0056.970 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Constants/User.php (exists: 1, is_readable: 1 size: 158)
+0056.990 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Resource/Tenant.php (exists: 1, is_readable: 1 size: 2182)
+0057.010 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Resource/Token.php (exists: 1, is_readable: 1 size: 1528)
+0057.026 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Resource/User.php (exists: 1, is_readable: 1 size: 8363)
+0057.043 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Resource/Role.php (exists: 1, is_readable: 1 size: 2124)
+0057.059 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Identity/Service.php (exists: 1, is_readable: 1 size: 5373)
+0057.076 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Constants/UrlType.php (exists: 1, is_readable: 1 size: 576)
+0057.096 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Constants/Header.php (exists: 1, is_readable: 1 size: 600)
+0057.116 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Exception/StreamException.php (exists: 1, is_readable: 1 size: 324)
+0057.136 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Exception/ObjectNotFoundException.php (exists: 1, is_readable: 1 size: 554)
+0057.156 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Exception/ContainerException.php (exists: 1, is_readable: 1 size: 327)
+0057.176 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Exception/UploadException.php (exists: 1, is_readable: 1 size: 709)
+0057.196 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Exception/BulkOperationException.php (exists: 1, is_readable: 1 size: 659)
+0057.217 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/AbstractResource.php (exists: 1, is_readable: 1 size: 6036)
+0057.236 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/Account.php (exists: 1, is_readable: 1 size: 2374)
+0057.257 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/AbstractContainer.php (exists: 1, is_readable: 1 size: 3771)
+0057.280 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/CDNContainer.php (exists: 1, is_readable: 1 size: 2466)
+0057.301 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/ContainerMetadata.php (exists: 1, is_readable: 1 size: 398)
+0057.317 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/DataObject.php (exists: 1, is_readable: 1 size: 11179)
+0057.338 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Resource/Container.php (exists: 1, is_readable: 1 size: 17003)
+0057.358 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/AbstractTransfer.php (exists: 1, is_readable: 1 size: 5670)
+0057.378 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/TransferBuilder.php (exists: 1, is_readable: 1 size: 3424)
+0057.398 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/ConcurrentTransfer.php (exists: 1, is_readable: 1 size: 3328)
+0057.414 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/ConsecutiveTransfer.php (exists: 1, is_readable: 1 size: 2068)
+0057.446 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/TransferState.php (exists: 1, is_readable: 1 size: 1442)
+0057.479 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/ContainerMigration.php (exists: 1, is_readable: 1 size: 5329)
+0057.495 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/TransferPart.php (exists: 1, is_readable: 1 size: 4124)
+0057.515 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Upload/DirectorySync.php (exists: 1, is_readable: 1 size: 6385)
+0057.536 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/CDNService.php (exists: 1, is_readable: 1 size: 549)
+0057.556 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/AbstractService.php (exists: 1, is_readable: 1 size: 1362)
+0057.577 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/ObjectStore/Service.php (exists: 1, is_readable: 1 size: 6799)
+0057.602 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Version.php (exists: 1, is_readable: 1 size: 940)
+0057.622 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/Rackspace.php (exists: 1, is_readable: 1 size: 6162)
+0057.642 (0) File: plugins/updraftplus/oc/rs/lb2/OpenCloud/OpenStack.php (exists: 1, is_readable: 1 size: 14418)
+0057.658 (0) File: plugins/updraftplus/oc/rs/lb2/php-opencloud.php (exists: 1, is_readable: 1 size: 51)
+0057.675 (0) File: plugins/updraftplus/oc/rs/composer.json (exists: 1, is_readable: 1 size: 784)
+0057.691 (0) File: plugins/updraftplus/oc/rs/README.md (exists: 1, is_readable: 1 size: 2672)
+0057.707 (0) File: plugins/updraftplus/oc/rs/LICENSE (exists: 1, is_readable: 1 size: 696)
+0057.723 (0) File: plugins/updraftplus/oc/rs/phpunit.xml.dist (exists: 1, is_readable: 1 size: 1040)
+0057.739 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/.gitignore (exists: 1, is_readable: 1 size: 34)
+0057.755 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/Event.php (exists: 1, is_readable: 1 size: 2738)
+0057.772 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/EventDispatcherInterface.php (exists: 1, is_readable: 1 size: 3008)
+0057.792 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/composer.json (exists: 1, is_readable: 1 size: 945)
+0057.812 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/EventDispatcher.php (exists: 1, is_readable: 1 size: 5559)
+0057.844 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/CHANGELOG.md (exists: 1, is_readable: 1 size: 471)
+0057.877 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/ContainerAwareEventDispatcher.php (exists: 1, is_readable: 1 size: 6685)
+0057.906 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/README.md (exists: 1, is_readable: 1 size: 592)
+0057.926 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/EventSubscriberInterface.php (exists: 1, is_readable: 1 size: 1585)
+0057.946 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/ImmutableEventDispatcher.php (exists: 1, is_readable: 1 size: 2233)
+0057.967 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/LICENSE (exists: 1, is_readable: 1 size: 1065)
+0057.983 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/phpunit.xml.dist (exists: 1, is_readable: 1 size: 881)
+0058.015 (0) File: plugins/updraftplus/oc/symed/Symfony/Component/EventDispatcher/GenericEvent.php (exists: 1, is_readable: 1 size: 3919)
+0058.036 (0) File: plugins/updraftplus/oc/autoload.php (exists: 1, is_readable: 1 size: 183)
+0058.056 (0) File: plugins/updraftplus/example-decrypt.php (exists: 1, is_readable: 1 size: 884)
+0058.076 (0) File: plugins/updraftplus/restorer.php (exists: 1, is_readable: 1 size: 77931)
+0058.096 (0) File: plugins/updraftplus/index.html (exists: 1, is_readable: 1 size: 5382)
+0058.116 (0) File: plugins/updraftplus/backup.php (exists: 1, is_readable: 1 size: 100816)
+0058.137 (0) File: plugins/updraftplus/class-zip.php (exists: 1, is_readable: 1 size: 9686)
+0058.157 (0) File: plugins/updraftplus/updraftplus.php (exists: 1, is_readable: 1 size: 125451)
+0058.177 (0) File: plugins/updraftplus/readme.txt (exists: 1, is_readable: 1 size: 63982)
+0058.197 (0) File: plugins/updraftplus/options.php (exists: 1, is_readable: 1 size: 7424)
+0058.218 (0) File: plugins/updraftplus/admin.php (exists: 1, is_readable: 1 size: 194423)
+0058.237 (0) File: plugins/language-bar-flags/images/32px/flag_pt.png (exists: 1, is_readable: 1 size: 1650)
+0058.258 (0) File: plugins/language-bar-flags/images/32px/flag_rw.png (exists: 1, is_readable: 1 size: 1080)
+0058.290 (0) File: plugins/language-bar-flags/images/32px/flag_bt.png (exists: 1, is_readable: 1 size: 2181)
+0058.310 (0) File: plugins/language-bar-flags/images/32px/flag_so.png (exists: 1, is_readable: 1 size: 1291)
+0058.326 (0) File: plugins/language-bar-flags/images/32px/flag_bw.png (exists: 1, is_readable: 1 size: 754)
+0058.342 (0) File: plugins/language-bar-flags/images/32px/flag_bj.png (exists: 1, is_readable: 1 size: 908)
+0058.358 (0) File: plugins/language-bar-flags/images/32px/flag_sc.png (exists: 1, is_readable: 1 size: 2352)
+0058.374 (0) File: plugins/language-bar-flags/images/32px/flag_cy.png (exists: 1, is_readable: 1 size: 1099)
+0058.391 (0) File: plugins/language-bar-flags/images/32px/flag_cn.png (exists: 1, is_readable: 1 size: 1203)
+0058.408 (0) File: plugins/language-bar-flags/images/32px/flag_sg.png (exists: 1, is_readable: 1 size: 1106)
+0058.427 (0) File: plugins/language-bar-flags/images/32px/flag_jo.png (exists: 1, is_readable: 1 size: 1455)
+0058.447 (0) File: plugins/language-bar-flags/images/32px/flag_cz.png (exists: 1, is_readable: 1 size: 1341)
+0058.467 (0) File: plugins/language-bar-flags/images/32px/flag_gt.png (exists: 1, is_readable: 1 size: 2123)
+0058.484 (0) File: plugins/language-bar-flags/images/32px/flag_tg.png (exists: 1, is_readable: 1 size: 1449)
+0058.504 (0) File: plugins/language-bar-flags/images/32px/flag_bn.png (exists: 1, is_readable: 1 size: 2428)
+0058.520 (0) File: plugins/language-bar-flags/images/32px/flag_la.png (exists: 1, is_readable: 1 size: 1422)
+0058.540 (0) File: plugins/language-bar-flags/images/32px/flag_gn.png (exists: 1, is_readable: 1 size: 1058)
+0058.560 (0) File: plugins/language-bar-flags/images/32px/flag_ng.png (exists: 1, is_readable: 1 size: 936)
+0058.580 (0) File: plugins/language-bar-flags/images/32px/flag_gr.png (exists: 1, is_readable: 1 size: 1202)
+0058.600 (0) File: plugins/language-bar-flags/images/32px/flag_ph.png (exists: 1, is_readable: 1 size: 1613)
+0058.620 (0) File: plugins/language-bar-flags/images/32px/flag_iq.png (exists: 1, is_readable: 1 size: 918)
+0058.640 (0) File: plugins/language-bar-flags/images/32px/flag_lt.png (exists: 1, is_readable: 1 size: 838)
+0058.661 (0) File: plugins/language-bar-flags/images/32px/flag_ml.png (exists: 1, is_readable: 1 size: 1041)
+0058.681 (0) File: plugins/language-bar-flags/images/32px/flag_dz.png (exists: 1, is_readable: 1 size: 1476)
+0058.701 (0) File: plugins/language-bar-flags/images/32px/flag_sa.png (exists: 1, is_readable: 1 size: 2019)
+0058.733 (0) File: plugins/language-bar-flags/images/32px/flag_kg.png (exists: 1, is_readable: 1 size: 1628)
+0058.753 (0) File: plugins/language-bar-flags/images/32px/flag_mm.png (exists: 1, is_readable: 1 size: 1482)
+0058.773 (0) File: plugins/language-bar-flags/images/32px/flag_na.png (exists: 1, is_readable: 1 size: 2833)
+0058.806 (0) File: plugins/language-bar-flags/images/32px/flag_ge.png (exists: 1, is_readable: 1 size: 1331)
+0058.838 (0) File: plugins/language-bar-flags/images/32px/flag_ar.png (exists: 1, is_readable: 1 size: 938)
+0058.854 (0) File: plugins/language-bar-flags/images/32px/flag_dj.png (exists: 1, is_readable: 1 size: 1588)
+0058.870 (0) File: plugins/language-bar-flags/images/32px/flag_tr.png (exists: 1, is_readable: 1 size: 1486)
+0058.886 (0) File: plugins/language-bar-flags/images/32px/flag_ne.png (exists: 1, is_readable: 1 size: 1014)
+0058.902 (0) File: plugins/language-bar-flags/images/32px/flag_ye.png (exists: 1, is_readable: 1 size: 561)
+0058.918 (0) File: plugins/language-bar-flags/images/32px/flag_cf.png (exists: 1, is_readable: 1 size: 1224)
+0058.935 (0) File: plugins/language-bar-flags/images/32px/flag_ca.png (exists: 1, is_readable: 1 size: 1581)
+0058.956 (0) File: plugins/language-bar-flags/images/32px/flag_eg.png (exists: 1, is_readable: 1 size: 861)
+0058.976 (0) File: plugins/language-bar-flags/images/32px/flag_al.png (exists: 1, is_readable: 1 size: 1601)
+0058.997 (0) File: plugins/language-bar-flags/images/32px/flag_gy.png (exists: 1, is_readable: 1 size: 2767)
+0059.017 (0) File: plugins/language-bar-flags/images/32px/flag_am.png (exists: 1, is_readable: 1 size: 852)
+0059.037 (0) File: plugins/language-bar-flags/images/32px/flag_bh.png (exists: 1, is_readable: 1 size: 1440)
+0059.057 (0) File: plugins/language-bar-flags/images/32px/flag_il.png (exists: 1, is_readable: 1 size: 1151)
+0059.077 (0) File: plugins/language-bar-flags/images/32px/flag_er.png (exists: 1, is_readable: 1 size: 2324)
+0059.097 (0) File: plugins/language-bar-flags/images/32px/flag_cd.png (exists: 1, is_readable: 1 size: 2381)
+0059.114 (0) File: plugins/language-bar-flags/images/32px/flag_bo.png (exists: 1, is_readable: 1 size: 1288)
+0059.130 (0) File: plugins/language-bar-flags/images/32px/flag_th.png (exists: 1, is_readable: 1 size: 730)
+0059.146 (0) File: plugins/language-bar-flags/images/32px/flag_be.png (exists: 1, is_readable: 1 size: 895)
+0059.162 (0) File: plugins/language-bar-flags/images/32px/flag_om.png (exists: 1, is_readable: 1 size: 1239)
+0059.222 (0) File: plugins/language-bar-flags/images/32px/flag_my.png (exists: 1, is_readable: 1 size: 1653)
+0059.250 (0) File: plugins/language-bar-flags/images/32px/flag_us.png (exists: 1, is_readable: 1 size: 1256)
+0059.291 (0) File: plugins/language-bar-flags/images/32px/flag_et.png (exists: 1, is_readable: 1 size: 1649)
+0059.310 (0) File: plugins/language-bar-flags/images/32px/flag_nz.png (exists: 1, is_readable: 1 size: 2033)
+0059.327 (0) File: plugins/language-bar-flags/images/32px/flag_lr.png (exists: 1, is_readable: 1 size: 1329)
+0059.446 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1600 files added (on-disk size: 5627.6 Kb)
+0059.490 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1700 files added (on-disk size: 5627.6 Kb)
+0059.535 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1800 files added (on-disk size: 5627.6 Kb)
+0059.583 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip.tmp: 1900 files added (on-disk size: 5627.6 Kb)
+0067.406 (0) Created plugins zip (0) - 6687.7 Kb in 66.7 s (100.2 Kb/s) (SHA1 checksum: 224a401f3e2be896f83e4742ca11d8f35c3cbc89)
+0067.476 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0068.814 (0) Total entities for the zip file: 480 directories, 1331 files, 15.1 Mb
+0068.869 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0068.919 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0068.971 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0068.998 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1.5 seconds have passed since the last write (8.9 Mb, 301 (301) files added so far); re-opening (prior size: 0 Kb)
+0087.338 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 400 files added (on-disk size: 5375.6 Kb)
+0087.398 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 500 files added (on-disk size: 5375.6 Kb)
+0087.474 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 600 files added (on-disk size: 5375.6 Kb)
+0087.523 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 700 files added (on-disk size: 5375.6 Kb)
+0087.584 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 800 files added (on-disk size: 5375.6 Kb)
+0087.603 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.4 Mb, 1331 files batched, 501 (802) added so far); re-opening (prior size: 5375.6 Kb)
+0100.692 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 900 files added (on-disk size: 6883.1 Kb)
+0100.755 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 1000 files added (on-disk size: 6883.1 Kb)
+0100.812 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 1100 files added (on-disk size: 6883.1 Kb)
+0100.860 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 1200 files added (on-disk size: 6883.1 Kb)
+0100.902 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip.tmp: 1300 files added (on-disk size: 6883.1 Kb)
+0100.921 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 Mb, 1331 files batched, 501 (1303) added so far); re-opening (prior size: 6883.1 Kb)
+0119.727 (0) Created themes zip (0) - 9002.9 Kb in 52.2 s (172.4 Kb/s) (SHA1 checksum: c3e8e915bd7b1e38fffa5bb9737931ceeac2a39f)
+0119.767 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0119.785 (0) Looking for candidates to back up in: /home2/gpgprope/public_html/wp-content/uploads
+0119.805 (0) finding files: 2013: adding to list (1)
+0119.825 (0) finding files: 2014: adding to list (2)
+0119.858 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0120.099 (0) Total entities for the zip file: 5 directories, 305 files, 19.3 Mb
+0120.131 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0120.171 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0120.212 (0) Zip: backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0153.621 (0) Created uploads zip (0) - 19031.7 Kb in 33.7 s (564.1 Kb/s) (SHA1 checksum: fd0730e502c2315b9afd43adda04938907db4eb2)
+0153.686 (0) Beginning backup of other directories found in the content directory (index: 0)
+0153.735 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0153.822 (0) Looking for candidates to back up in: /home2/gpgprope/public_html/wp-content
+0153.860 (0) finding files: index.php: adding to list (1)
+0153.901 (0) finding files: languages: adding to list (2)
+0153.943 (0) finding files: plugins: skipping: this is the plugins directory
+0153.984 (0) finding files: themes: skipping: this is the themes directory
+0154.018 (0) finding files: uploads: skipping: this is the uploads directory
+0154.050 (0) finding files: wfcache: adding to list (3)
+0154.086 (0) finding files: upgrade: skipping: excluded by options
+0154.118 (0) finding files: updraft: skipping: this is the updraft directory
+0154.258 (0) Total entities for the zip file: 25 directories, 73 files, 1.7 Mb
+0157.150 (0) Created others zip (0) - 576.1 Kb in 3 s (191.6 Kb/s) (SHA1 checksum: 27eb935befb72f9ed1eb19fe77961255eda59205)
+0157.230 (0) Saving backup status to database (elements: 8)
+0157.291 (0) Beginning creation of database dump (WordPress DB)
+0157.377 (0) Table gpg_options: Total expected rows (approximate): 366
+0157.447 (0) Table gpg_options: Total rows added: 426 in 0.05 seconds
+0157.468 (0) Table gpg_options: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_options.table.gz - 77.4 Kb)
+0157.531 (0) Table gpg_users: Total expected rows (approximate): 3
+0157.552 (0) Table gpg_users: Total rows added: 3 in 0.00 seconds
+0157.569 (0) Table gpg_users: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_users.table.gz - 0.6 Kb)
+0157.631 (0) Table gpg_usermeta: Total expected rows (approximate): 56
+0157.656 (0) Table gpg_usermeta: Total rows added: 56 in 0.01 seconds
+0157.677 (0) Table gpg_usermeta: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_usermeta.table.gz - 1.2 Kb)
+0157.737 (0) Table gpg_commentmeta: Total expected rows (approximate): 0
+0157.762 (0) Table gpg_commentmeta: Total rows added: 0 in 0.00 seconds
+0157.781 (0) Table gpg_commentmeta: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_commentmeta.table.gz - 0.3 Kb)
+0157.840 (0) Table gpg_comments: Total expected rows (approximate): 13
+0157.870 (0) Table gpg_comments: Total rows added: 13 in 0.01 seconds
+0157.928 (0) Table gpg_comments: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_comments.table.gz - 1 Kb)
+0157.995 (0) Table gpg_links: Total expected rows (approximate): 0
+0158.030 (0) Table gpg_links: Total rows added: 0 in 0.00 seconds
+0158.048 (0) Table gpg_links: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_links.table.gz - 0.4 Kb)
+0158.110 (0) Table gpg_postmeta: Total expected rows (approximate): 613
+0158.170 (0) Table gpg_postmeta: Total rows added: 957 in 0.04 seconds
+0158.193 (0) Table gpg_postmeta: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_postmeta.table.gz - 14.6 Kb)
+0158.249 (0) Table gpg_posts: Total expected rows (approximate): 361
+0158.342 (0) Table gpg_posts: Total rows added: 286 in 0.08 seconds
+0158.371 (0) Table gpg_posts: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_posts.table.gz - 50.9 Kb)
+0158.432 (0) Table gpg_term_relationships: Total expected rows (approximate): 121
+0158.456 (0) Table gpg_term_relationships: Total rows added: 121 in 0.00 seconds
+0158.477 (0) Table gpg_term_relationships: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_term_relationships.table.gz - 0.7 Kb)
+0158.531 (0) Table gpg_term_taxonomy: Total expected rows (approximate): 37
+0158.554 (0) Table gpg_term_taxonomy: Total rows added: 37 in 0.00 seconds
+0158.574 (0) Table gpg_term_taxonomy: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_term_taxonomy.table.gz - 0.7 Kb)
+0158.635 (0) Table gpg_terms: Total expected rows (approximate): 37
+0158.658 (0) Table gpg_terms: Total rows added: 37 in 0.00 seconds
+0158.682 (0) Table gpg_terms: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_terms.table.gz - 0.9 Kb)
+0158.785 (0) Table gpg_icl_string_translations: Total expected rows (approximate): 0
+0158.827 (0) Table gpg_icl_string_translations: Total rows added: 0 in 0.00 seconds
+0158.881 (0) Table gpg_icl_string_translations: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_icl_string_translations.table.gz - 0.4 Kb)
+0159.036 (0) Table gpg_icl_strings: Total expected rows (approximate): 0
+0159.057 (0) Table gpg_icl_strings: Total rows added: 0 in 0.00 seconds
+0159.075 (0) Table gpg_icl_strings: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_icl_strings.table.gz - 0.3 Kb)
+0159.137 (0) Table gpg_revslider_css: Total expected rows (approximate): 47
+0159.160 (0) Table gpg_revslider_css: Total rows added: 47 in 0.00 seconds
+0159.180 (0) Table gpg_revslider_css: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_css.table.gz - 1.8 Kb)
+0159.240 (0) Table gpg_revslider_layer_animations: Total expected rows (approximate): 0
+0159.286 (0) Table gpg_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0159.326 (0) Table gpg_revslider_layer_animations: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_layer_animations.table.gz - 0.3 Kb)
+0159.383 (0) Table gpg_revslider_settings: Total expected rows (approximate): 0
+0159.405 (0) Table gpg_revslider_settings: Total rows added: 0 in 0.00 seconds
+0159.423 (0) Table gpg_revslider_settings: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_settings.table.gz - 0.3 Kb)
+0159.527 (0) Table gpg_revslider_sliders: Total expected rows (approximate): 1
+0159.548 (0) Table gpg_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0159.567 (0) Table gpg_revslider_sliders: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_sliders.table.gz - 1.2 Kb)
+0159.648 (0) Table gpg_revslider_slides: Total expected rows (approximate): 4
+0159.671 (0) Table gpg_revslider_slides: Total rows added: 4 in 0.00 seconds
+0159.692 (0) Table gpg_revslider_slides: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_slides.table.gz - 1.2 Kb)
+0159.783 (0) Table gpg_wfBadLeechers: Total expected rows (approximate): 0
+0159.810 (0) Table gpg_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0159.832 (0) Table gpg_wfBadLeechers: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBadLeechers.table.gz - 0.3 Kb)
+0159.908 (0) Table gpg_wfBlocks: Total expected rows (approximate): 0
+0159.943 (0) Table gpg_wfBlocks: Total rows added: 0 in 0.00 seconds
+0159.964 (0) Table gpg_wfBlocks: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBlocks.table.gz - 0.3 Kb)
+0160.015 (0) Table gpg_wfBlocksAdv: Total expected rows (approximate): 0
+0160.037 (0) Table gpg_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0160.130 (0) Table gpg_wfBlocksAdv: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBlocksAdv.table.gz - 0.3 Kb)
+0160.279 (0) Table gpg_wfConfig: Total expected rows (approximate): 109
+0160.313 (0) Table gpg_wfConfig: Total rows added: 109 in 0.01 seconds
+0160.337 (0) Table gpg_wfConfig: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfConfig.table.gz - 2.3 Kb)
+0160.405 (0) Table gpg_wfCrawlers: Total expected rows (approximate): 0
+0160.432 (0) Table gpg_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0160.456 (0) Table gpg_wfCrawlers: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfCrawlers.table.gz - 0.3 Kb)
+0160.538 (0) Table gpg_wfFileMods: Total expected rows (approximate): 0
+0160.571 (0) Table gpg_wfFileMods: Total rows added: 0 in 0.00 seconds
+0160.597 (0) Table gpg_wfFileMods: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfFileMods.table.gz - 0.3 Kb)
+0160.679 (0) Table gpg_wfHits: Total expected rows (approximate): 0
+0160.720 (0) Table gpg_wfHits: Total rows added: 0 in 0.00 seconds
+0160.741 (0) Table gpg_wfHits: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfHits.table.gz - 0.4 Kb)
+0160.805 (0) Table gpg_wfHoover: Total expected rows (approximate): 0
+0160.846 (0) Table gpg_wfHoover: Total rows added: 0 in 0.00 seconds
+0160.893 (0) Table gpg_wfHoover: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfHoover.table.gz - 0.3 Kb)
+0160.973 (0) Table gpg_wfIssues: Total expected rows (approximate): 0
+0160.998 (0) Table gpg_wfIssues: Total rows added: 0 in 0.00 seconds
+0161.026 (0) Table gpg_wfIssues: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfIssues.table.gz - 0.4 Kb)
+0161.123 (0) Table gpg_wfLeechers: Total expected rows (approximate): 147
+0161.160 (0) Table gpg_wfLeechers: Total rows added: 147 in 0.01 seconds
+0161.181 (0) Table gpg_wfLeechers: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLeechers.table.gz - 1 Kb)
+0161.270 (0) Table gpg_wfLockedOut: Total expected rows (approximate): 0
+0161.304 (0) Table gpg_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0161.334 (0) Table gpg_wfLockedOut: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLockedOut.table.gz - 0.3 Kb)
+0161.428 (0) Table gpg_wfLocs: Total expected rows (approximate): 3
+0161.460 (0) Table gpg_wfLocs: Total rows added: 3 in 0.00 seconds
+0161.489 (0) Table gpg_wfLocs: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLocs.table.gz - 0.4 Kb)
+0161.573 (0) Table gpg_wfLogins: Total expected rows (approximate): 31
+0161.606 (0) Table gpg_wfLogins: Total rows added: 31 in 0.00 seconds
+0161.634 (0) Table gpg_wfLogins: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLogins.table.gz - 1.1 Kb)
+0161.715 (0) Table gpg_wfNet404s: Total expected rows (approximate): 0
+0161.749 (0) Table gpg_wfNet404s: Total rows added: 0 in 0.00 seconds
+0161.780 (0) Table gpg_wfNet404s: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfNet404s.table.gz - 0.3 Kb)
+0161.927 (0) Table gpg_wfReverseCache: Total expected rows (approximate): 1
+0161.968 (0) Table gpg_wfReverseCache: Total rows added: 1 in 0.00 seconds
+0162.003 (0) Table gpg_wfReverseCache: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfReverseCache.table.gz - 0.4 Kb)
+0162.077 (0) Table gpg_wfScanners: Total expected rows (approximate): 25
+0162.111 (0) Table gpg_wfScanners: Total rows added: 25 in 0.00 seconds
+0162.141 (0) Table gpg_wfScanners: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfScanners.table.gz - 0.5 Kb)
+0162.231 (0) Table gpg_wfStatus: Total expected rows (approximate): 959
+0162.301 (0) Table gpg_wfStatus: Total rows added: 959 in 0.04 seconds
+0162.330 (0) Table gpg_wfStatus: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfStatus.table.gz - 13.9 Kb)
+0162.420 (0) Table gpg_wfThrottleLog: Total expected rows (approximate): 0
+0162.453 (0) Table gpg_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0162.492 (0) Table gpg_wfThrottleLog: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfThrottleLog.table.gz - 0.3 Kb)
+0162.630 (0) Table gpg_wfVulnScanners: Total expected rows (approximate): 0
+0162.680 (0) Table gpg_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0162.714 (0) Table gpg_wfVulnScanners: finishing file (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfVulnScanners.table.gz - 0.3 Kb)
+0162.779 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_options.table.gz (1/37): adding to final database dump
+0162.835 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_users.table.gz (2/37): adding to final database dump
+0162.879 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_usermeta.table.gz (3/37): adding to final database dump
+0162.903 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_commentmeta.table.gz (4/37): adding to final database dump
+0162.924 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_comments.table.gz (5/37): adding to final database dump
+0162.943 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_links.table.gz (6/37): adding to final database dump
+0162.963 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_postmeta.table.gz (7/37): adding to final database dump
+0163.000 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_posts.table.gz (8/37): adding to final database dump
+0163.041 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_term_relationships.table.gz (9/37): adding to final database dump
+0163.069 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_term_taxonomy.table.gz (10/37): adding to final database dump
+0163.105 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_terms.table.gz (11/37): adding to final database dump
+0163.141 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_icl_string_translations.table.gz (12/37): adding to final database dump
+0163.177 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_icl_strings.table.gz (13/37): adding to final database dump
+0163.213 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_css.table.gz (14/37): adding to final database dump
+0163.238 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_layer_animations.table.gz (15/37): adding to final database dump
+0163.269 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_settings.table.gz (16/37): adding to final database dump
+0163.293 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_sliders.table.gz (17/37): adding to final database dump
+0163.322 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_revslider_slides.table.gz (18/37): adding to final database dump
+0163.346 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBadLeechers.table.gz (19/37): adding to final database dump
+0163.378 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBlocks.table.gz (20/37): adding to final database dump
+0163.422 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfBlocksAdv.table.gz (21/37): adding to final database dump
+0163.463 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfConfig.table.gz (22/37): adding to final database dump
+0163.500 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfCrawlers.table.gz (23/37): adding to final database dump
+0163.528 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfFileMods.table.gz (24/37): adding to final database dump
+0163.567 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfHits.table.gz (25/37): adding to final database dump
+0163.608 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfHoover.table.gz (26/37): adding to final database dump
+0163.644 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfIssues.table.gz (27/37): adding to final database dump
+0163.680 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLeechers.table.gz (28/37): adding to final database dump
+0163.717 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLockedOut.table.gz (29/37): adding to final database dump
+0163.752 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLocs.table.gz (30/37): adding to final database dump
+0163.809 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfLogins.table.gz (31/37): adding to final database dump
+0163.834 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfNet404s.table.gz (32/37): adding to final database dump
+0163.862 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfReverseCache.table.gz (33/37): adding to final database dump
+0163.882 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfScanners.table.gz (34/37): adding to final database dump
+0163.902 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfStatus.table.gz (35/37): adding to final database dump
+0163.943 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfThrottleLog.table.gz (36/37): adding to final database dump
+0163.971 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db-table-gpg_wfVulnScanners.table.gz (37/37): adding to final database dump
+0164.011 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db.gz: finished writing out complete database file (144 Kb)
+0164.095 (0) Total database tables backed up: 37 (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db.gz, size: 173689, checksum (SHA1): b3dccf97784cac0e76f95e5c05fe55ad9d8c4939)
+0164.144 (0) Saving backup history
+0164.257 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0164.284 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0164.312 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0164.333 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0164.357 (0) backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0164.434 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0164.502 (0) Cloud backup selection: none
+0164.519 (0) No remote despatch: user chose no remote backup service
+0164.551 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0164.568 (0) Number of backup sets in history: 5
+0164.608 (0) Examining backup set with datestamp: 1401626663 (Jun 01 2014 12:44:23)
+0164.639 (0) 1401626663: db: this set includes a database (backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db.gz); db count is now 1
+0164.688 (0) 1401626663: this backup set remains non-empty (1/1); will retain in history
+0164.704 (0) Examining backup set with datestamp: 1401541970 (May 31 2014 13:12:50)
+0164.720 (0) 1401541970: db: this set includes a database (backup_2014-05-31-1312_GPG__GreenLand_Property_Group_7da89fe1dc9e-db.gz); db count is now 2
+0164.752 (0) 1401541970: this backup set remains non-empty (1/1); will retain in history
+0164.768 (0) Examining backup set with datestamp: 1401457677 (May 30 2014 13:47:57)
+0164.785 (0) 1401457677: db: this set includes a database (backup_2014-05-30-1347_GPG__GreenLand_Property_Group_a2c06aa829f1-db.gz); db count is now 3
+0164.829 (0) 1401457677: this backup set remains non-empty (1/1); will retain in history
+0164.849 (0) Examining backup set with datestamp: 1401366496 (May 29 2014 12:28:16)
+0164.909 (0) 1401366496: db: this set includes a database (backup_2014-05-29-1228_GPG__GreenLand_Property_Group_49a920c0af9d-db.gz); db count is now 4
+0164.970 (0) 1401366496: this backup set remains non-empty (1/1); will retain in history
+0164.990 (0) Examining backup set with datestamp: 1401366480 (May 29 2014 12:28:00)
+0165.038 (0) 1401366480: this backup set remains non-empty (1/0); will retain in history
+0165.066 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0165.532 (0) Resume backup (a9e46ceff28b, 0): finish run
+0165.640 (0) Decremented the semaphore (fd) by 1
+0165.672 (0) Semaphore (fd) unlocked
+0165.689 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0165.750 (0) No email will/can be sent - the user has not configured an email address.
+0165.769 (0) The backup apparently succeeded (with warnings) and is now complete
+0000.000 (1) Opened log file at time: Mon, 02 Jun 2014 12:44:07 +0000 on http://gpgproperty.com.au
+0000.024 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.13 WP: 3.9.1 PHP: 5.3.27 (Linux webcloud57.au.syrahost.com 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.36-cll Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 1 max_execution_time: 30 memory_limit: 64M (used: 41.4M | 41.8M) multisite: N mcrypt: Y ZipArchive::addFile: Y
+0000.048 (1) Free space on disk containing Updraft's temporary directory: 55693.9 Mb
+0000.081 (1) This backup began over 2 days ago: aborting
+0000.000 (1) Opened log file at time: Mon, 02 Jun 2014 12:47:53 +0000 on http://gpgproperty.com.au
+0000.030 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.13 WP: 3.9.1 PHP: 5.3.27 (Linux webcloud57.au.syrahost.com 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.36-cll Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 1 max_execution_time: 30 memory_limit: 64M (used: 41.4M | 41.8M) multisite: N mcrypt: Y ZipArchive::addFile: Y
+0000.067 (1) Free space on disk containing Updraft's temporary directory: 55654.8 Mb
+0000.098 (1) This backup began over 2 days ago: aborting

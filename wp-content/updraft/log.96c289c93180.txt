@@ -1,0 +1,63 @@
+0000.041 () Opened log file at time: Mon, 02 Jun 2014 12:44:03 +0000 on http://gpgproperty.com.au
+0000.041 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.13 WP: 3.9.1 PHP: 5.3.27 (Linux webcloud57.au.syrahost.com 2.6.32-458.23.2.lve1.2.45.el6.x86_64 #1 SMP Fri Nov 22 08:02:49 EST 2013 x86_64) MySQL: 5.5.36-cll Server: Apache/2.2.26 (Unix) mod_ssl/2.2.26 OpenSSL/1.0.1e-fips mod_bwlimited/1.4 mod_perl/2.0.6 Perl/v5.10.1 safe_mode: 1 max_execution_time: 30 memory_limit: 64M (used: 50.7M | 51M) multisite: N mcrypt: Y ZipArchive::addFile: Y
+0000.041 () Free space on disk containing Updraft's temporary directory: 55694.1 Mb
+0000.042 () Restore job started. Entities to restore: db
+0000.050 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.050 () Entity: db
+0000.050 () restore_backup(backup_file=backup_2014-06-01-1244_GPG__GreenLand_Property_Group_a9e46ceff28b-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.050 () Unpacking backup...
+0000.052 () Database successfully unpacked
+0000.052 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.054 () Using direct MySQL access; value of use_mysqli is: 0
+0000.055 () Max packet size: 32 Mb
+0000.057 () Backup created by: 1.9.13
+0000.057 () <strong>Backup of:</strong> http://gpgproperty.com.au
+0000.057 () Content URL: http://gpgproperty.com.au/wp-content
+0000.058 () Old table prefix: gpg_
+0000.058 () Site information: multisite=0
+0000.061 () New table prefix: gpg_
+0000.081 () Restoring table (InnoDB): gpg_options
+0000.938 () Restoring table (InnoDB): gpg_users
+0001.267 () Restoring table (InnoDB): gpg_usermeta
+0001.519 () Table prefix has changed: changing usermeta table field(s) accordingly
+0002.017 () Usermeta table fields changed OK
+0002.018 () Restoring table (InnoDB): gpg_commentmeta
+0002.898 () Restoring table (InnoDB): gpg_comments
+0003.232 () Restoring table (InnoDB): gpg_links
+0003.388 () Restoring table (InnoDB): gpg_postmeta
+0004.268 () Restoring table (InnoDB): gpg_posts
+0005.289 () Restoring table (InnoDB): gpg_term_relationships
+0005.513 () Restoring table (InnoDB): gpg_term_taxonomy
+0005.740 () Restoring table (InnoDB): gpg_terms
+0005.994 () Restoring table (MyISAM): gpg_icl_string_translations
+0006.053 () Restoring table (MyISAM): gpg_icl_strings
+0006.155 () Restoring table (InnoDB): gpg_revslider_css
+0006.329 () Restoring table (InnoDB): gpg_revslider_layer_animations
+0006.497 () Restoring table (InnoDB): gpg_revslider_settings
+0006.650 () Restoring table (InnoDB): gpg_revslider_sliders
+0006.784 () Database queries processed: 50 in 6.73 seconds
+0006.806 () Restoring table (InnoDB): gpg_revslider_slides
+0006.963 () Restoring table (MyISAM): gpg_wfBadLeechers
+0006.997 () Restoring table (MyISAM): gpg_wfBlocks
+0007.031 () Restoring table (MyISAM): gpg_wfBlocksAdv
+0007.082 () Restoring table (MyISAM): gpg_wfConfig
+0007.163 () Restoring table (MyISAM): gpg_wfCrawlers
+0007.200 () Restoring table (MyISAM): gpg_wfFileMods
+0007.316 () Restoring table (MyISAM): gpg_wfHits
+0007.363 () Restoring table (MyISAM): gpg_wfHoover
+0007.394 () Restoring table (MyISAM): gpg_wfIssues
+0007.421 () Restoring table (MyISAM): gpg_wfLeechers
+0007.478 () Restoring table (MyISAM): gpg_wfLockedOut
+0007.508 () Restoring table (MyISAM): gpg_wfLocs
+0007.547 () Restoring table (MyISAM): gpg_wfLogins
+0007.603 () Restoring table (MyISAM): gpg_wfNet404s
+0007.648 () Restoring table (MyISAM): gpg_wfReverseCache
+0007.676 () Restoring table (MyISAM): gpg_wfScanners
+0007.727 () Restoring table (MyISAM): gpg_wfStatus
+0007.879 () Restoring table (MyISAM): gpg_wfThrottleLog
+0007.924 () Restoring table (MyISAM): gpg_wfVulnScanners
+0007.951 () Database queries processed: 100 in 7.90 seconds
+0007.951 () Finished: lines processed: 101 in 7.90 seconds
+0007.951 () Cleaning up rubbish...
+0007.962 () Restore successful!
+0007.962 () Restore successful

@@ -1,0 +1,320 @@
+[02-Jun-2014 12:16:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+		' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+			`FromUserName` varchar(30)  NOT NULL,
+			`MsgType` varchar(10)  NOT NULL,
+			`CreateTime` int(10) NOT NULL,
+
+			`Content` longtext  NOT NULL,
+
+			`PicUrl` varchar(255)  NOT NULL,
+
+			`Location_X` double(10,6) NOT NULL,
+			`Location_Y` double(10,6) NOT NULL,
+			`Scale` int(10) NOT NULL,
+			`label` varchar(255)  NOT NULL,
+
+			`Title` text  NOT NULL,
+			`Description` longtext  NOT NULL,
+			`Url` varchar(255)  NOT NULL,
+
+			`Event` varchar(255)  NOT NULL,
+			`EventKey` varchar(255)  NOT NULL,
+
+			`Format` varchar(255)  NOT NULL,
+			`MediaId` text  NOT NULL,
+			`Recognition` text  NOT NULL,
+		 
+			`Response` varchar(255)  NOT NULL,
+			
+			`Ticket` text  NOT NULL,
+			
+			`ip` varchar(100)  NOT NULL,
+			
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:16:41 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `openid` varchar(30) NOT NULL,
+		  `nickname` varchar(50) NOT NULL COMMENT '昵称',
+		  `name` varchar(50) NOT NULL COMMENT '姓名',
+		  `phone` varchar(20) NOT NULL COMMENT '电话号码',
+		  `id_card` varchar(18) NOT NULL COMMENT '身份证',
+		  `address` text NOT NULL COMMENT '地址',
+		  `subscribe` int(1) NOT NULL default '1',
+		  `subscribe_time` int(10) NOT NULL,
+		  `sex` int(1) NOT NULL,
+		  `city` varchar(255) NOT NULL,
+		  `country` varchar(255) NOT NULL,
+		  `province` varchar(255) NOT NULL,
+		  `language` varchar(255) NOT NULL,
+		  `headimgurl` varchar(255) NOT NULL,
+		  `last_update` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  UNIQUE KEY `weixin_openid` (`openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:16:41 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `weixin_openid` varchar(30) NOT NULL,
+		  `operator_id` bigint(20) default NULL,
+		  `credit_change` int(10) NOT NULL COMMENT '本次变动的积分',
+		  `credit` int(10) NOT NULL COMMENT '变动后的总积分',
+		  `exp_change` int(10) NOT NULL COMMENT '本次变动的经验值',
+		  `exp` int(10) NOT NULL COMMENT '变动后的总经验值',
+		  `type` varchar(20) NOT NULL COMMENT '积分变动类型',
+		  `post_id` bigint(20) NOT NULL default '0',
+		  `note` varchar(255) NOT NULL COMMENT '备注',
+		  `limit` int(1) NOT NULL default '0' COMMENT '是否到每日积分上限',
+		  `time` datetime NOT NULL COMMENT '+8时区',
+		  `url` char(255) NOT NULL COMMENT '操作的相关 URL',
+		  PRIMARY KEY  (`id`),
+		  KEY `type` (`type`),
+		  KEY `weixin_openid` (`weixin_openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:16:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NUL' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NULL,
+			`match` varchar(10)  NOT NULL DEFAULT 'full',
+			`reply` text  NOT NULL,
+			`status` int(1) NOT NULL DEFAULT '1',
+			`time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+			`type` varchar(10)  NOT NULL DEFAULT 'text',
+			PRIMARY KEY (`id`),
+			UNIQUE KEY `keyword` (`keyword`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:16:41 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`n' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`name` varchar(255)  NOT NULL,
+			`type` varchar(31)  NOT NULL,
+			`ticket` text  NOT NULL,
+			`expire` int(10) NOT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:54:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+		' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+			`FromUserName` varchar(30)  NOT NULL,
+			`MsgType` varchar(10)  NOT NULL,
+			`CreateTime` int(10) NOT NULL,
+
+			`Content` longtext  NOT NULL,
+
+			`PicUrl` varchar(255)  NOT NULL,
+
+			`Location_X` double(10,6) NOT NULL,
+			`Location_Y` double(10,6) NOT NULL,
+			`Scale` int(10) NOT NULL,
+			`label` varchar(255)  NOT NULL,
+
+			`Title` text  NOT NULL,
+			`Description` longtext  NOT NULL,
+			`Url` varchar(255)  NOT NULL,
+
+			`Event` varchar(255)  NOT NULL,
+			`EventKey` varchar(255)  NOT NULL,
+
+			`Format` varchar(255)  NOT NULL,
+			`MediaId` text  NOT NULL,
+			`Recognition` text  NOT NULL,
+		 
+			`Response` varchar(255)  NOT NULL,
+			
+			`Ticket` text  NOT NULL,
+			
+			`ip` varchar(100)  NOT NULL,
+			
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:54:38 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `openid` varchar(30) NOT NULL,
+		  `nickname` varchar(50) NOT NULL COMMENT '昵称',
+		  `name` varchar(50) NOT NULL COMMENT '姓名',
+		  `phone` varchar(20) NOT NULL COMMENT '电话号码',
+		  `id_card` varchar(18) NOT NULL COMMENT '身份证',
+		  `address` text NOT NULL COMMENT '地址',
+		  `subscribe` int(1) NOT NULL default '1',
+		  `subscribe_time` int(10) NOT NULL,
+		  `sex` int(1) NOT NULL,
+		  `city` varchar(255) NOT NULL,
+		  `country` varchar(255) NOT NULL,
+		  `province` varchar(255) NOT NULL,
+		  `language` varchar(255) NOT NULL,
+		  `headimgurl` varchar(255) NOT NULL,
+		  `last_update` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  UNIQUE KEY `weixin_openid` (`openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:54:38 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `weixin_openid` varchar(30) NOT NULL,
+		  `operator_id` bigint(20) default NULL,
+		  `credit_change` int(10) NOT NULL COMMENT '本次变动的积分',
+		  `credit` int(10) NOT NULL COMMENT '变动后的总积分',
+		  `exp_change` int(10) NOT NULL COMMENT '本次变动的经验值',
+		  `exp` int(10) NOT NULL COMMENT '变动后的总经验值',
+		  `type` varchar(20) NOT NULL COMMENT '积分变动类型',
+		  `post_id` bigint(20) NOT NULL default '0',
+		  `note` varchar(255) NOT NULL COMMENT '备注',
+		  `limit` int(1) NOT NULL default '0' COMMENT '是否到每日积分上限',
+		  `time` datetime NOT NULL COMMENT '+8时区',
+		  `url` char(255) NOT NULL COMMENT '操作的相关 URL',
+		  PRIMARY KEY  (`id`),
+		  KEY `type` (`type`),
+		  KEY `weixin_openid` (`weixin_openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:54:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NUL' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NULL,
+			`match` varchar(10)  NOT NULL DEFAULT 'full',
+			`reply` text  NOT NULL,
+			`status` int(1) NOT NULL DEFAULT '1',
+			`time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+			`type` varchar(10)  NOT NULL DEFAULT 'text',
+			PRIMARY KEY (`id`),
+			UNIQUE KEY `keyword` (`keyword`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[02-Jun-2014 12:54:38 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`n' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`name` varchar(255)  NOT NULL,
+			`type` varchar(31)  NOT NULL,
+			`ticket` text  NOT NULL,
+			`expire` int(10) NOT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[03-Jun-2014 02:25:52 UTC] WordPress database error Unknown column 'option_name' in 'where clause' for query DELETE FROM `gpg_sitemeta` WHERE `option_name` LIKE '_site_transient%_cookillian_%' made by require('wp-admin/plugins.php'), deactivate_plugins, do_action('deactivate_cookillian/cookillian.php'), call_user_func_array, Pf4wp\WordpressPlugin->_onDeactivation, Pf4wp\WordpressPlugin->iterateBlogsAction, call_user_func_array, Pf4wp\WordpressPlugin->_doOnDeactivation, Myatu\WordPress\Cookillian\Main->onDeactivation, Myatu\WordPress\Cookillian\Main->clearTransients
+[03-Jun-2014 02:25:52 UTC] WordPress database error Unknown column 'option_name' in 'where clause' for query DELETE FROM `gpg_sitemeta` WHERE `option_name` LIKE '_site_transient%_cookillian_%' made by require('wp-admin/plugins.php'), deactivate_plugins, do_action('deactivate_cookillian/cookillian.php'), call_user_func_array, Pf4wp\WordpressPlugin->_onDeactivation, Pf4wp\WordpressPlugin->iterateBlogsAction, call_user_func_array, Pf4wp\WordpressPlugin->_doOnDeactivation, Myatu\WordPress\Cookillian\Main->onDeactivation, Myatu\WordPress\Cookillian\Main->clearTransients
+[03-Jun-2014 12:38:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+		' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL auto_increment,
+			`MsgId` bigint(64) NOT NULL,
+			`FromUserName` varchar(30)  NOT NULL,
+			`MsgType` varchar(10)  NOT NULL,
+			`CreateTime` int(10) NOT NULL,
+
+			`Content` longtext  NOT NULL,
+
+			`PicUrl` varchar(255)  NOT NULL,
+
+			`Location_X` double(10,6) NOT NULL,
+			`Location_Y` double(10,6) NOT NULL,
+			`Scale` int(10) NOT NULL,
+			`label` varchar(255)  NOT NULL,
+
+			`Title` text  NOT NULL,
+			`Description` longtext  NOT NULL,
+			`Url` varchar(255)  NOT NULL,
+
+			`Event` varchar(255)  NOT NULL,
+			`EventKey` varchar(255)  NOT NULL,
+
+			`Format` varchar(255)  NOT NULL,
+			`MediaId` text  NOT NULL,
+			`Recognition` text  NOT NULL,
+		 
+			`Response` varchar(255)  NOT NULL,
+			
+			`Ticket` text  NOT NULL,
+			
+			`ip` varchar(100)  NOT NULL,
+			
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[03-Jun-2014 12:38:57 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `openid` varchar(30) NOT NULL,
+		  `nickname` varchar(50) NOT NULL COMMENT '昵称',
+		  `name` varchar(50) NOT NULL COMMENT '姓名',
+		  `phone` varchar(20) NOT NULL COMMENT '电话号码',
+		  `id_card` varchar(18) NOT NULL COMMENT '身份证',
+		  `address` text NOT NULL COMMENT '地址',
+		  `subscribe` int(1) NOT NULL default '1',
+		  `subscribe_time` int(10) NOT NULL,
+		  `sex` int(1) NOT NULL,
+		  `city` varchar(255) NOT NULL,
+		  `country` varchar(255) NOT NULL,
+		  `province` varchar(255) NOT NULL,
+		  `language` varchar(255) NOT NULL,
+		  `headimgurl` varchar(255) NOT NULL,
+		  `last_update` int(10) NOT NULL,
+		  PRIMARY KEY  (`id`),
+		  UNIQUE KEY `weixin_openid` (`openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[03-Jun-2014 12:38:57 UTC] WordPress database error Incorrect table name '' for query 
+		CREATE TABLE IF NOT EXISTS `` (
+		  `id` bigint(20) NOT NULL auto_increment,
+		  `weixin_openid` varchar(30) NOT NULL,
+		  `operator_id` bigint(20) default NULL,
+		  `credit_change` int(10) NOT NULL COMMENT '本次变动的积分',
+		  `credit` int(10) NOT NULL COMMENT '变动后的总积分',
+		  `exp_change` int(10) NOT NULL COMMENT '本次变动的经验值',
+		  `exp` int(10) NOT NULL COMMENT '变动后的总经验值',
+		  `type` varchar(20) NOT NULL COMMENT '积分变动类型',
+		  `post_id` bigint(20) NOT NULL default '0',
+		  `note` varchar(255) NOT NULL COMMENT '备注',
+		  `limit` int(1) NOT NULL default '0' COMMENT '是否到每日积分上限',
+		  `time` datetime NOT NULL COMMENT '+8时区',
+		  `url` char(255) NOT NULL COMMENT '操作的相关 URL',
+		  PRIMARY KEY  (`id`),
+		  KEY `type` (`type`),
+		  KEY `weixin_openid` (`weixin_openid`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[03-Jun-2014 12:38:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NUL' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`keyword` varchar(255)  NOT NULL,
+			`match` varchar(10)  NOT NULL DEFAULT 'full',
+			`reply` text  NOT NULL,
+			`status` int(1) NOT NULL DEFAULT '1',
+			`time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+			`type` varchar(10)  NOT NULL DEFAULT 'text',
+			PRIMARY KEY (`id`),
+			UNIQUE KEY `keyword` (`keyword`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
+[03-Jun-2014 12:38:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`n' at line 1 for query 
+		CREATE TABLE IF NOT EXISTS  (
+			`id` bigint(20) NOT NULL AUTO_INCREMENT,
+			`scene` int(6)  NOT NULL,
+			`name` varchar(255)  NOT NULL,
+			`type` varchar(31)  NOT NULL,
+			`ticket` text  NOT NULL,
+			`expire` int(10) NOT NULL,
+			PRIMARY KEY (`id`)
+		) ENGINE=MyISAM DEFAULT CHARSET=utf8 made by require('wp-admin/plugins.php'), activate_plugins, activate_plugin, do_action('activate_weixin-robot/weixin-robot.php'), call_user_func_array, weixin_robot_create_table, dbDelta
