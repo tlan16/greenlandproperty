@@ -84,7 +84,10 @@
                   {% endif %}
 
                   {% if not wp.aviators_settings_get_value('socialize', 'twitter', 'is_hidden') %}
-                    <li class="leaf twitter"><a href="{{  wp.aviators_settings_get_value('socialize', 'twitter', 'link') }}" class="twitter"><i>T</i></a></li>
+                    <li class="leaf twitter">
+					<a href="{{  wp.aviators_settings_get_value('socialize', 'twitter', 'link') }}" class="twitter">
+					<img src="{{ wp.get_template_directory_uri() }}/assets/img/icon-twitter.png" alt="Join us on Wechat">
+					</a></li>
                   {% endif %}
 
                   {% if not wp.aviators_settings_get_value('socialize', 'vimeo', 'is_hidden') %}
