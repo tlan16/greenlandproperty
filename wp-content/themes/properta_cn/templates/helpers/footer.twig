@@ -1,0 +1,59 @@
+
+            {% if wp.is_active_sidebar('footer-bottom-left') or wp.is_active_sidebar('footer-bottom-right') or wp.is_active_sidebar('footer-1') or wp.is_active_sidebar('footer-2') or wp.is_active_sidebar('footer-3') or wp.is_active_sidebar('footer-4')%}
+                <div id="footer-wrapper">                
+                    {% if wp.is_active_sidebar('footer-1') or wp.is_active_sidebar('footer-2') or wp.is_active_sidebar('footer-3') or wp.is_active_sidebar('footer-4')%}                    
+                        <div id="footer-top">
+                            <div id="footer-top-inner" class="container">
+                                <div class="row">
+                                    <div class="span3">
+                                        {% if not wp.dynamic_sidebar('footer-1') %}{% endif %}
+                                    </div>
+
+                                    <div class="span3">
+                                        {% if not wp.dynamic_sidebar('footer-2') %}{% endif %}
+                                    </div>
+
+                                    <div class="span3">
+                                        {% if not wp.dynamic_sidebar('footer-3') %}{% endif %}
+                                    </div>
+
+                                    <div class="span3">
+                                        {% if not wp.dynamic_sidebar('footer-4') %}{% endif %}
+                                    </div>
+                                </div><!-- /.row -->
+                            </div><!-- /#footer-top-inner -->
+                        </div><!-- /#footer-top -->            
+                    {% endif %}
+                    
+                    {% if wp.is_active_sidebar('footer-bottom-left') or wp.is_active_sidebar('footer-bottom-right') %}
+                        <div class="footer-bottom">
+                            <div id="footer" class="footer container">
+                                <div id="footer-inner">
+                                    <div class="row">
+                                        <div class="span6">
+                                            {% if not wp.dynamic_sidebar('footer-bottom-left') %}{% endif %}
+                                        </div><!-- /.copyright -->
+
+                                         <div class="span6">
+                                            {% if not wp.dynamic_sidebar('footer-bottom-right') %}{% endif %}
+                                        </div><!-- /.span6 -->
+                                    </div><!-- /.row -->
+                                </div><!-- /#footer-inner -->
+                            </div><!-- /#footer -->
+                        </div>
+                    {% endif %}
+                </div><!-- /#footer-wrapper -->
+            {% endif %}
+
+    {% if wp.aviators_settings_get_value('google_analytics', 'tracking', 'code') %}
+        <script type="text/javascript">
+            var _gaq=[["_setAccount", "{{ wp.aviators_settings_get_value('google_analytics', 'tracking', 'code') }}"],["_trackPageview"]];
+            (function(d,t){ var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+                g.src="//www.google-analytics.com/ga.js";
+                s.parentNode.insertBefore(g,s) }(document,"script"));
+        </script>
+    {% endif %}
+
+    {{ wp_footer() }}
+</body>
+</html>

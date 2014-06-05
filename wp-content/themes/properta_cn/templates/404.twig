@@ -1,0 +1,24 @@
+{% extends 'layout-fullwidth.twig' %}
+
+{% block content %}
+	<div class="container">
+    <div id="main">
+        <div class="not-found">
+            <h1>404</h1>
+
+            <h2>{{ wp.__('您所输入的页面存在', 'aviators') }}</h2>
+            <hr>
+
+            <div class="row">
+                <div class="search-404 span4 offset4">
+                    {{ wp.get_search_form() }}
+                </div><!-- /.search-404 -->
+            </div><!-- /.offset4 -->
+
+            <p>
+                Please use search box or <a href="javascript: window.history.go(-1)">return back</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
