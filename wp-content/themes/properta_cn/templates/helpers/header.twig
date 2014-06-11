@@ -34,6 +34,7 @@
    <div class="container">
        <div class="top-inner inverted">
            <div class="header clearfix">
+                <div class="languages">{{ wp.do_shortcode('[languagelinks]') }}</div>
                {% if wp.function_exists('icl_sitepress_activate') %}
                     <div class="languages">{{ wp.do_action('icl_language_selector') }}</div>
                {% endif %}
