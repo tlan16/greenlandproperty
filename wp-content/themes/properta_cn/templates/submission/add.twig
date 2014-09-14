@@ -1,0 +1,15 @@
+<h1 class="page-header">{{ wp.__('Add submission', 'aviators') }}</h1>
+{% include 'helpers/progress.twig' %}
+<form method="post" action="" enctype="multipart/form-data" class="submission-form form-vertical">
+    <div class="row">
+        {{ form.content|raw }}
+
+        <div class="span4">
+            {{ form.metabox._setup() }}
+        </div>
+    </div>
+
+    <div class="form-actions">
+        <input type="submit" class="btn btn-primary" value="{{ wp.__('Save', 'aviators') }}">
+    </div>
+</form>
